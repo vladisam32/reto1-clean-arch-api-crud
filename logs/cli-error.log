@@ -1,0 +1,179 @@
+2025-09-14 22:32:56.853 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  cliApplication
+↑     ↓
+|  cliServiceImpl defined in file [D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\cli\target\classes\org\litethinking\cli\service\impl\CliServiceImpl.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-09-14 22:38:59.657 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-09-14 22:40:55.066 [main] ERROR org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Diablo! Error al obtener la lista de productos: 404  on GET request for "http://localhost:8080/api/productos": "{"timestamp":"2025-09-15T02:40:55.064+00:00","status":404,"error":"Not Found","path":"/api/productos"}"
+org.springframework.web.client.HttpClientErrorException$NotFound: 404  on GET request for "http://localhost:8080/api/productos": "{"timestamp":"2025-09-15T02:40:55.064+00:00","status":404,"error":"Not Found","path":"/api/productos"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:147) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.listAllProducts(CliServiceImpl.java:300) [classes/:?]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.productMenu(CliServiceImpl.java:142) [classes/:?]
+	at org.litethinking.cli.CliApplication.run(CliApplication.java:54) [classes/:?]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) [?:?]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) [?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) [?:?]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) [spring-boot-3.5.5.jar:3.5.5]
+	at org.litethinking.cli.CliApplication.main(CliApplication.java:31) [classes/:?]
+2025-09-14 22:41:37.953 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-09-14 23:07:34.036 [main] ERROR org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Diablo! Error al obtener la lista de inventario: 404  on GET request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:07:34.035+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+org.springframework.web.client.HttpClientErrorException$NotFound: 404  on GET request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:07:34.035+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:147) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.listAllInventory(CliServiceImpl.java:620) [classes/:?]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.inventoryMenu(CliServiceImpl.java:197) [classes/:?]
+	at org.litethinking.cli.CliApplication.run(CliApplication.java:58) [classes/:?]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) [?:?]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) [?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) [?:?]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) [spring-boot-3.5.5.jar:3.5.5]
+	at org.litethinking.cli.CliApplication.main(CliApplication.java:31) [classes/:?]
+2025-09-14 23:08:35.270 [main] ERROR org.litethinking.cli.service.supermercado.CliServiceImpl - Error HTTP al actualizar el inventario: 404  on POST request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:08:35.258+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+2025-09-14 23:08:38.305 [main] ERROR org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Diablo! Error al obtener la lista de inventario: 404  on GET request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:08:38.303+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+org.springframework.web.client.HttpClientErrorException$NotFound: 404  on GET request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:08:38.303+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:147) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.listAllInventory(CliServiceImpl.java:620) [classes/:?]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.inventoryMenu(CliServiceImpl.java:197) [classes/:?]
+	at org.litethinking.cli.CliApplication.run(CliApplication.java:58) [classes/:?]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) [?:?]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) [?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) [?:?]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) [spring-boot-3.5.5.jar:3.5.5]
+	at org.litethinking.cli.CliApplication.main(CliApplication.java:31) [classes/:?]
+2025-09-14 23:08:52.603 [main] ERROR org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Diablo! Error al obtener la lista de inventario: 404  on GET request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:08:52.601+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+org.springframework.web.client.HttpClientErrorException$NotFound: 404  on GET request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:08:52.601+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:147) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.listAllInventory(CliServiceImpl.java:620) [classes/:?]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.inventoryMenu(CliServiceImpl.java:197) [classes/:?]
+	at org.litethinking.cli.CliApplication.run(CliApplication.java:58) [classes/:?]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) [?:?]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) [?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) [?:?]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) [spring-boot-3.5.5.jar:3.5.5]
+	at org.litethinking.cli.CliApplication.main(CliApplication.java:31) [classes/:?]
+2025-09-14 23:21:37.975 [main] ERROR org.litethinking.cli.service.supermercado.CliServiceImpl - Error HTTP al actualizar el inventario: 404  on POST request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:21:37.964+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"

@@ -1,0 +1,159 @@
+2025-09-14 16:41:31.317 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.litethinking.restapi.controller.supermercado.inventario.ControladorInventario required a bean of type 'org.litethinking.application.service.supermercado.inventario.ServicioInventario' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.litethinking.application.service.supermercado.inventario.ServicioInventario' in your configuration.
+
+2025-09-14 16:44:48.338 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.litethinking.restapi.controller.supermercado.inventario.ControladorInventario required a bean of type 'org.litethinking.application.service.supermercado.inventario.ServicioInventario' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.litethinking.application.service.supermercado.inventario.ServicioInventario' in your configuration.
+
+2025-09-14 16:45:10.375 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.litethinking.restapi.controller.supermercado.inventario.ControladorInventario required a bean of type 'org.litethinking.application.service.supermercado.inventario.ServicioInventario' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.litethinking.application.service.supermercado.inventario.ServicioInventario' in your configuration.
+
+2025-09-14 16:48:44.034 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.litethinking.restapi.controller.supermercado.venta.ControladorVenta required a bean of type 'org.litethinking.application.service.supermercado.venta.ServicioVenta' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.litethinking.application.service.supermercado.venta.ServicioVenta' in your configuration.
+
+2025-09-14 16:49:48.800 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.litethinking.restapi.controller.supermercado.venta.ControladorVenta required a bean of type 'org.litethinking.application.service.supermercado.venta.ServicioVenta' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.litethinking.application.service.supermercado.venta.ServicioVenta' in your configuration.
+
+2025-09-14 16:51:03.114 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'repositorioJpaInventario', defined in org.litethinking.infrastructure.persistence.repository.supermercado.inventario.RepositorioJpaInventario defined in @EnableJpaRepositories declared on RestApiApplication, could not be registered. A bean with that name has already been defined in org.litethinking.infrastructure.persistence.repository.supermercado.inventario.RepositorioJpaInventario defined in @EnableJpaRepositories declared on RestApiApplication and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-09-14 16:53:39.235 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'repositorioJpaInventario', defined in org.litethinking.infrastructure.persistence.repository.supermercado.inventario.RepositorioJpaInventario defined in @EnableJpaRepositories declared on RestApiApplication, could not be registered. A bean with that name has already been defined in org.litethinking.infrastructure.persistence.repository.supermercado.inventario.RepositorioJpaInventario defined in @EnableJpaRepositories declared on RestApiApplication and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-09-14 16:54:44.470 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'repositorioJpaInventario', defined in org.litethinking.infrastructure.persistence.repository.supermercado.inventario.RepositorioJpaInventario defined in @EnableJpaRepositories declared on RestApiApplication, could not be registered. A bean with that name has already been defined in org.litethinking.infrastructure.persistence.repository.supermercado.inventario.RepositorioJpaInventario defined in @EnableJpaRepositories declared on RestApiApplication and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-09-14 16:55:25.862 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'repositorioJpaInventario', defined in org.litethinking.infrastructure.persistence.repository.supermercado.inventario.RepositorioJpaInventario defined in @EnableJpaRepositories declared on RestApiApplication, could not be registered. A bean with that name has already been defined in org.litethinking.infrastructure.persistence.repository.supermercado.inventario.RepositorioJpaInventario defined in @EnableJpaRepositories declared on RestApiApplication and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-09-14 16:57:01.490 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'repositorioJpaInventario', defined in org.litethinking.infrastructure.persistence.repository.supermercado.inventario.RepositorioJpaInventario defined in @EnableJpaRepositories declared on RestApiApplication, could not be registered. A bean with that name has already been defined in org.litethinking.infrastructure.persistence.repository.supermercado.inventario.RepositorioJpaInventario defined in @EnableJpaRepositories declared on RestApiApplication and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2025-09-14 16:58:08.877 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'repositorioJpaInventario', defined in org.litethinking.infrastructure.persistence.repository.supermercado.inventario.RepositorioJpaInventario defined in @EnableJpaRepositories declared on RestApiApplication, could not be registered. A bean with that name has already been defined in org.litethinking.infrastructure.persistence.repository.supermercado.inventario.RepositorioJpaInventario defined in @EnableJpaRepositories declared on RestApiApplication and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+

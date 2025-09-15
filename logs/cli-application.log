@@ -1,0 +1,663 @@
+2025-09-14 22:32:54.135 [main] INFO  org.litethinking.cli.CliApplication - Starting CliApplication using Java 24 with PID 14260 (D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\cli\target\classes started by vladi in D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud)
+2025-09-14 22:32:54.144 [main] DEBUG org.litethinking.cli.CliApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-14 22:32:54.145 [main] INFO  org.litethinking.cli.CliApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-14 22:32:54.859 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-14 22:32:54.885 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2025-09-14 22:32:55.381 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-14 22:32:55.398 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-14 22:32:55.401 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-14 22:32:55.401 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-14 22:32:55.453 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-14 22:32:55.453 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1264 ms
+2025-09-14 22:32:55.597 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-14 22:32:55.827 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:29b79547-6d2a-4644-9838-e12a03c67d55 user=SA
+2025-09-14 22:32:55.830 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-14 22:32:55.921 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-14 22:32:55.994 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-14 22:32:56.035 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-14 22:32:56.403 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-14 22:32:56.479 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-14 22:32:56.804 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-14 22:32:56.808 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-14 22:32:56.819 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cliApplication': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'cliServiceImpl' defined in file [D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\cli\target\classes\org\litethinking\cli\service\impl\CliServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'cliApplication': Requested bean is currently in creation: Is there an unresolvable circular reference or an asynchronous initialization dependency?
+2025-09-14 22:32:56.819 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-14 22:32:56.821 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-14 22:32:56.823 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-14 22:32:56.825 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2025-09-14 22:32:56.835 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-14 22:32:56.853 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+┌─────┐
+|  cliApplication
+↑     ↓
+|  cliServiceImpl defined in file [D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\cli\target\classes\org\litethinking\cli\service\impl\CliServiceImpl.class]
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
+2025-09-14 22:38:56.679 [main] INFO  org.litethinking.cli.CliApplication - Starting CliApplication using Java 24 with PID 2856 (D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\cli\target\classes started by vladi in D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud)
+2025-09-14 22:38:56.686 [main] DEBUG org.litethinking.cli.CliApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-14 22:38:56.688 [main] INFO  org.litethinking.cli.CliApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-14 22:38:57.326 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-14 22:38:57.354 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2025-09-14 22:38:57.805 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-14 22:38:57.820 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-14 22:38:57.821 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-14 22:38:57.821 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-14 22:38:57.867 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-14 22:38:57.868 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1132 ms
+2025-09-14 22:38:57.991 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-14 22:38:58.178 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:870eb55a-2412-46fb-97be-947581cf1ff8 user=SA
+2025-09-14 22:38:58.180 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-14 22:38:58.238 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-14 22:38:58.308 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-14 22:38:58.347 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-14 22:38:58.643 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-14 22:38:58.727 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-14 22:38:59.088 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-14 22:38:59.094 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-14 22:38:59.106 [main] DEBUG org.litethinking.cli.config.AppConfig - Creating RestTemplate bean for API communication
+2025-09-14 22:38:59.131 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Servicio CLI inicializado y listo pa' trabajar con la API en: http://localhost:8080/api!
+2025-09-14 22:38:59.132 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Componentes inicializados: RestTemplate, ReportGenerator, URL base: http://localhost:8080/api
+2025-09-14 22:38:59.167 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-14 22:38:59.607 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-14 22:38:59.612 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-09-14 22:38:59.614 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-14 22:38:59.617 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-14 22:38:59.619 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-14 22:38:59.632 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-14 22:38:59.657 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-09-14 22:40:20.292 [main] INFO  org.litethinking.cli.CliApplication - Starting CliApplication using Java 24 with PID 8216 (D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\cli\target\classes started by vladi in D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud)
+2025-09-14 22:40:20.299 [main] DEBUG org.litethinking.cli.CliApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-14 22:40:20.300 [main] INFO  org.litethinking.cli.CliApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-14 22:40:20.983 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-14 22:40:21.008 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2025-09-14 22:40:21.533 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-14 22:40:21.548 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-14 22:40:21.550 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-14 22:40:21.551 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-14 22:40:21.600 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-14 22:40:21.600 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1249 ms
+2025-09-14 22:40:21.815 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-14 22:40:22.028 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e46bf2d5-26ee-4261-83cd-829a934ca40a user=SA
+2025-09-14 22:40:22.031 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-14 22:40:22.078 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-14 22:40:22.154 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-14 22:40:22.211 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-14 22:40:22.619 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-14 22:40:22.706 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-14 22:40:23.029 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-14 22:40:23.034 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-14 22:40:23.043 [main] DEBUG org.litethinking.cli.config.AppConfig - Creating RestTemplate bean for API communication
+2025-09-14 22:40:23.066 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Servicio CLI inicializado y listo pa' trabajar con la API en: http://localhost:8080/api!
+2025-09-14 22:40:23.066 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Componentes inicializados: RestTemplate, ReportGenerator, URL base: http://localhost:8080/api
+2025-09-14 22:40:23.096 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-14 22:40:23.464 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-14 22:40:23.485 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-14 22:40:23.495 [main] INFO  org.litethinking.cli.CliApplication - Started CliApplication in 3.653 seconds (process running for 4.778)
+2025-09-14 22:40:23.499 [main] INFO  org.litethinking.cli.CliApplication - Iniciando la aplicasión CLI del supelmercao
+2025-09-14 22:40:23.500 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 22:40:38.628 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 5
+2025-09-14 22:40:38.628 [main] DEBUG org.litethinking.cli.CliApplication - Usualio seleccionó la opsión de getión de cajero
+2025-09-14 22:40:38.628 [main] INFO  org.litethinking.cli.CliApplication - Intentando login de cajero
+2025-09-14 22:40:38.628 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Iniciando proceso de login de cajero
+2025-09-14 22:40:42.167 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Código de cajero ingresado: 1
+2025-09-14 22:40:42.167 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando petición a la API: http://localhost:8080/api/cajeros/codigo/1
+2025-09-14 22:40:42.318 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-14 22:40:42.318 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-09-14 22:40:42.319 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-09-14 22:40:42.464 [main] WARN  org.litethinking.cli.service.supermercado.CliServiceImpl - Código de cajero no encontrado: 1
+2025-09-14 22:40:42.464 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 22:40:52.865 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 1
+2025-09-14 22:40:52.865 [main] DEBUG org.litethinking.cli.CliApplication - Usualio seleccionó la opsión de getión de producto
+2025-09-14 22:40:52.865 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Entrando al menú de gestión de productos
+2025-09-14 22:40:55.053 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '1'
+2025-09-14 22:40:55.053 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de productos: 1
+2025-09-14 22:40:55.053 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Listar todos los productos
+2025-09-14 22:40:55.053 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Obteniendo lista de todos los productos
+2025-09-14 22:40:55.054 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando petición a la API: http://localhost:8080/api/productos
+2025-09-14 22:40:55.066 [main] ERROR org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Diablo! Error al obtener la lista de productos: 404  on GET request for "http://localhost:8080/api/productos": "{"timestamp":"2025-09-15T02:40:55.064+00:00","status":404,"error":"Not Found","path":"/api/productos"}"
+org.springframework.web.client.HttpClientErrorException$NotFound: 404  on GET request for "http://localhost:8080/api/productos": "{"timestamp":"2025-09-15T02:40:55.064+00:00","status":404,"error":"Not Found","path":"/api/productos"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:147) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.listAllProducts(CliServiceImpl.java:300) [classes/:?]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.productMenu(CliServiceImpl.java:142) [classes/:?]
+	at org.litethinking.cli.CliApplication.run(CliApplication.java:54) [classes/:?]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) [?:?]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) [?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) [?:?]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) [spring-boot-3.5.5.jar:3.5.5]
+	at org.litethinking.cli.CliApplication.main(CliApplication.java:31) [classes/:?]
+2025-09-14 22:41:11.820 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '0'
+2025-09-14 22:41:11.820 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de productos: 0
+2025-09-14 22:41:11.820 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Volver al menú principal
+2025-09-14 22:41:11.821 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Saliendo del menú de gestión de productos
+2025-09-14 22:41:11.821 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 22:41:13.374 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 0
+2025-09-14 22:41:13.374 [main] INFO  org.litethinking.cli.CliApplication - Usualio seleccionó salil de la aplicasión
+2025-09-14 22:41:16.337 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-14 22:41:16.349 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-14 22:41:16.353 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-14 22:41:16.355 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-14 22:41:16.357 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-14 22:41:34.903 [main] INFO  org.litethinking.cli.CliApplication - Starting CliApplication using Java 24 with PID 24060 (D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\cli\target\classes started by vladi in D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud)
+2025-09-14 22:41:34.914 [main] DEBUG org.litethinking.cli.CliApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-14 22:41:34.915 [main] INFO  org.litethinking.cli.CliApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-14 22:41:35.614 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-14 22:41:35.645 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2025-09-14 22:41:36.178 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-14 22:41:36.197 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-14 22:41:36.199 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-14 22:41:36.199 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-14 22:41:36.254 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-14 22:41:36.254 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1297 ms
+2025-09-14 22:41:36.412 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-14 22:41:36.639 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ad2f9b7f-b749-49b5-a5cc-363ce3b23e15 user=SA
+2025-09-14 22:41:36.642 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-14 22:41:36.698 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-14 22:41:36.750 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-14 22:41:36.784 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-14 22:41:37.069 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-14 22:41:37.142 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-14 22:41:37.458 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-14 22:41:37.465 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-14 22:41:37.477 [main] DEBUG org.litethinking.cli.config.AppConfig - Creating RestTemplate bean for API communication
+2025-09-14 22:41:37.501 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Servicio CLI inicializado y listo pa' trabajar con la API en: http://localhost:8080/api!
+2025-09-14 22:41:37.501 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Componentes inicializados: RestTemplate, ReportGenerator, URL base: http://localhost:8080/api
+2025-09-14 22:41:37.532 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-14 22:41:37.914 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-14 22:41:37.919 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-09-14 22:41:37.921 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-14 22:41:37.923 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-14 22:41:37.925 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-14 22:41:37.936 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-09-14 22:41:37.953 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-09-14 22:44:34.246 [main] INFO  org.litethinking.cli.CliApplication - Starting CliApplication using Java 24 with PID 2884 (D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\cli\target\classes started by vladi in D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud)
+2025-09-14 22:44:34.253 [main] DEBUG org.litethinking.cli.CliApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-14 22:44:34.254 [main] INFO  org.litethinking.cli.CliApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-14 22:44:34.780 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-14 22:44:34.827 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 0 JPA repository interfaces.
+2025-09-14 22:44:35.262 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-14 22:44:35.476 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:675fa2a8-d0a3-46c6-a506-4b459d6f9826 user=SA
+2025-09-14 22:44:35.477 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-14 22:44:35.521 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-14 22:44:35.573 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-14 22:44:35.607 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-14 22:44:35.926 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-14 22:44:36.004 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-14 22:44:36.336 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-14 22:44:36.340 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-14 22:44:36.351 [main] DEBUG org.litethinking.cli.config.AppConfig - Creating RestTemplate bean for API communication
+2025-09-14 22:44:36.375 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Servicio CLI inicializado y listo pa' trabajar con la API en: http://localhost:8080/api!
+2025-09-14 22:44:36.376 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Componentes inicializados: RestTemplate, ReportGenerator, URL base: http://localhost:8080/api
+2025-09-14 22:44:36.585 [main] INFO  org.litethinking.cli.CliApplication - Started CliApplication in 2.787 seconds (process running for 4.084)
+2025-09-14 22:44:36.589 [main] INFO  org.litethinking.cli.CliApplication - Iniciando la aplicasión CLI del supelmercao
+2025-09-14 22:44:36.590 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 22:44:46.304 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 5
+2025-09-14 22:44:46.304 [main] DEBUG org.litethinking.cli.CliApplication - Usualio seleccionó la opsión de getión de cajero
+2025-09-14 22:44:46.304 [main] INFO  org.litethinking.cli.CliApplication - Intentando login de cajero
+2025-09-14 22:44:46.304 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Iniciando proceso de login de cajero
+2025-09-14 22:44:47.835 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Código de cajero ingresado: 1
+2025-09-14 22:44:47.835 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando petición a la API: http://localhost:8080/api/cajeros/codigo/1
+2025-09-14 22:44:48.123 [main] WARN  org.litethinking.cli.service.supermercado.CliServiceImpl - Código de cajero no encontrado: 1
+2025-09-14 22:44:48.123 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 22:45:34.807 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 5
+2025-09-14 22:45:34.807 [main] DEBUG org.litethinking.cli.CliApplication - Usualio seleccionó la opsión de getión de cajero
+2025-09-14 22:45:34.808 [main] INFO  org.litethinking.cli.CliApplication - Intentando login de cajero
+2025-09-14 22:45:34.808 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Iniciando proceso de login de cajero
+2025-09-14 22:45:57.747 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Código de cajero ingresado: CAJ001
+2025-09-14 22:45:57.747 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando petición a la API: http://localhost:8080/api/cajeros/codigo/CAJ001
+2025-09-14 22:45:57.790 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Login exitoso! Cajero: Juan Pérez (ID: 1)
+2025-09-14 22:45:57.790 [main] INFO  org.litethinking.cli.CliApplication - Login exitoso del cajero: Juan Pérez
+2025-09-14 22:45:57.791 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 22:45:57.791 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando info del cajero logueao: Juan Pérez
+2025-09-14 22:46:09.703 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 1
+2025-09-14 22:46:09.703 [main] DEBUG org.litethinking.cli.CliApplication - Usualio seleccionó la opsión de getión de producto
+2025-09-14 22:46:09.703 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Entrando al menú de gestión de productos
+2025-09-14 22:46:12.654 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '1'
+2025-09-14 22:46:12.654 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de productos: 1
+2025-09-14 22:46:12.654 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Listar todos los productos
+2025-09-14 22:46:12.654 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Obteniendo lista de todos los productos
+2025-09-14 22:46:12.656 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando petición a la API: http://localhost:8080/api/productos
+2025-09-14 22:46:12.694 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Encontramo' 10 productos en total!
+2025-09-14 22:46:12.695 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Producto: ID=1, Nombre=Leche Entera, Precio=$2.50
+2025-09-14 22:46:12.697 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Producto: ID=2, Nombre=Pan Integral, Precio=$1.75
+2025-09-14 22:46:12.697 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Producto: ID=3, Nombre=Manzanas, Precio=$3.20
+2025-09-14 22:46:12.699 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Producto: ID=4, Nombre=Arroz, Precio=$2.00
+2025-09-14 22:46:12.699 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Producto: ID=5, Nombre=Atún en Lata, Precio=$1.80
+2025-09-14 22:46:12.700 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Producto: ID=6, Nombre=Papel Higiénico, Precio=$5.50
+2025-09-14 22:46:12.700 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Producto: ID=7, Nombre=Detergente, Precio=$4.25
+2025-09-14 22:46:12.701 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Producto: ID=8, Nombre=Yogurt Natural, Precio=$2.10
+2025-09-14 22:46:12.701 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Producto: ID=9, Nombre=Aceite de Oliva, Precio=$6.75
+2025-09-14 22:46:12.701 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Producto: ID=10, Nombre=Café Molido, Precio=$3.90
+2025-09-14 22:46:31.543 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '3'
+2025-09-14 22:46:31.543 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de productos: 3
+2025-09-14 22:46:31.544 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Agregar nuevo producto
+2025-09-14 22:46:31.544 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Iniciando proceso de agregar un nuevo producto
+2025-09-14 22:46:38.258 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Nombre ingresado: Zapatos
+2025-09-14 22:46:51.449 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Descripción ingresada: Zapatos para  bolos
+2025-09-14 22:46:55.273 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Precio ingresado: 455
+2025-09-14 22:47:01.629 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Categoría ingresada: ZAPATERIA
+2025-09-14 22:47:05.756 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Código de Barras ingresado: ghyui
+2025-09-14 22:47:05.756 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando nuevo producto a la API: Zapatos
+2025-09-14 22:47:05.756 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Detalles del producto a crear: ProductoDto[id=null, nombre=Zapatos, descripcion=Zapatos para  bolos, precio=455, categoria=ZAPATERIA, codigoBarras=ghyui]
+2025-09-14 22:47:05.830 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Producto agregado con éxito! ID: 11
+2025-09-14 22:47:13.297 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '2'
+2025-09-14 22:47:13.297 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de productos: 2
+2025-09-14 22:47:13.297 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Buscar producto por ID
+2025-09-14 22:47:14.692 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - ID de producto ingresado: 11
+2025-09-14 22:47:14.692 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Buscando producto con ID: 11
+2025-09-14 22:47:14.692 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando petición a la API: http://localhost:8080/api/productos/11
+2025-09-14 22:47:14.699 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Encontramo' el producto! ID: 11, Nombre: Zapatos
+2025-09-14 22:47:14.700 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Detalles completos del producto: ProductoDto[id=11, nombre=Zapatos, descripcion=Zapatos para  bolos, precio=455.00, categoria=ZAPATERIA, codigoBarras=ghyui]
+2025-09-14 22:47:28.961 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '0'
+2025-09-14 22:47:28.961 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de productos: 0
+2025-09-14 22:47:28.961 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Volver al menú principal
+2025-09-14 22:47:28.961 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Saliendo del menú de gestión de productos
+2025-09-14 22:47:28.961 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 22:47:28.961 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando info del cajero logueao: Juan Pérez
+2025-09-14 22:47:30.215 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 0
+2025-09-14 22:47:30.215 [main] INFO  org.litethinking.cli.CliApplication - Usualio seleccionó salil de la aplicasión
+2025-09-14 22:47:30.224 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-14 22:47:30.227 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-14 22:47:30.229 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-14 23:04:48.539 [main] INFO  org.litethinking.cli.CliApplication - Starting CliApplication using Java 24 with PID 11980 (D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\cli\target\classes started by vladi in D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud)
+2025-09-14 23:04:48.550 [main] DEBUG org.litethinking.cli.CliApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-14 23:04:48.552 [main] INFO  org.litethinking.cli.CliApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-14 23:04:49.180 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-14 23:04:49.203 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2025-09-14 23:04:49.528 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-14 23:04:49.722 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:b6001111-3c25-476c-80b9-bc2eb6241c0a user=SA
+2025-09-14 23:04:49.724 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-14 23:04:49.766 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-14 23:04:49.816 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-14 23:04:49.851 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-14 23:04:50.153 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-14 23:04:50.229 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-14 23:04:50.551 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-14 23:04:50.556 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-14 23:04:50.567 [main] DEBUG org.litethinking.cli.config.AppConfig - Creating RestTemplate bean for API communication
+2025-09-14 23:04:50.591 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Servicio CLI inicializado y listo pa' trabajar con la API en: http://localhost:8080/api!
+2025-09-14 23:04:50.591 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Componentes inicializados: RestTemplate, ReportGenerator, URL base: http://localhost:8080/api
+2025-09-14 23:04:50.819 [main] INFO  org.litethinking.cli.CliApplication - Started CliApplication in 2.696 seconds (process running for 4.355)
+2025-09-14 23:04:50.823 [main] INFO  org.litethinking.cli.CliApplication - Iniciando la aplicasión CLI del supelmercao
+2025-09-14 23:04:50.824 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 23:04:55.518 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 4
+2025-09-14 23:04:55.518 [main] DEBUG org.litethinking.cli.CliApplication - Usualio seleccionó la opsión de generar reporte
+2025-09-14 23:04:55.518 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Vamo' a generar un reporte del sistema!
+2025-09-14 23:04:55.886 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Reporte generado con éxito!
+2025-09-14 23:04:55.886 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 23:05:13.708 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 5
+2025-09-14 23:05:13.708 [main] DEBUG org.litethinking.cli.CliApplication - Usualio seleccionó la opsión de getión de cajero
+2025-09-14 23:05:13.708 [main] INFO  org.litethinking.cli.CliApplication - Intentando login de cajero
+2025-09-14 23:05:13.708 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Iniciando proceso de login de cajero
+2025-09-14 23:07:17.145 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Código de cajero ingresado: CAJ003
+2025-09-14 23:07:17.145 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando petición a la API: http://localhost:8080/api/cajeros/codigo/CAJ003
+2025-09-14 23:07:17.175 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Login exitoso! Cajero: Carlos Rodríguez (ID: 3)
+2025-09-14 23:07:17.176 [main] INFO  org.litethinking.cli.CliApplication - Login exitoso del cajero: Carlos Rodríguez
+2025-09-14 23:07:17.176 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 23:07:17.176 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando info del cajero logueao: Carlos Rodríguez
+2025-09-14 23:07:19.988 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 4
+2025-09-14 23:07:19.988 [main] DEBUG org.litethinking.cli.CliApplication - Usualio seleccionó la opsión de generar reporte
+2025-09-14 23:07:19.989 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Vamo' a generar un reporte del sistema!
+2025-09-14 23:07:20.004 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Reporte generado con éxito!
+2025-09-14 23:07:20.004 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 23:07:20.004 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando info del cajero logueao: Carlos Rodríguez
+2025-09-14 23:07:31.798 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 2
+2025-09-14 23:07:31.800 [main] DEBUG org.litethinking.cli.CliApplication - Usualio seleccionó la opsión de getión de inventalio
+2025-09-14 23:07:31.800 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Entrando al menú de gestión de inventario
+2025-09-14 23:07:34.029 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '1'
+2025-09-14 23:07:34.029 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de inventario: 1
+2025-09-14 23:07:34.029 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Listar todo el inventario
+2025-09-14 23:07:34.029 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Obteniendo lista de todo el inventario
+2025-09-14 23:07:34.029 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando petición a la API: http://localhost:8080/api/inventarios
+2025-09-14 23:07:34.036 [main] ERROR org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Diablo! Error al obtener la lista de inventario: 404  on GET request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:07:34.035+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+org.springframework.web.client.HttpClientErrorException$NotFound: 404  on GET request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:07:34.035+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:147) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.listAllInventory(CliServiceImpl.java:620) [classes/:?]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.inventoryMenu(CliServiceImpl.java:197) [classes/:?]
+	at org.litethinking.cli.CliApplication.run(CliApplication.java:58) [classes/:?]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) [?:?]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) [?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) [?:?]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) [spring-boot-3.5.5.jar:3.5.5]
+	at org.litethinking.cli.CliApplication.main(CliApplication.java:31) [classes/:?]
+2025-09-14 23:08:02.072 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '3'
+2025-09-14 23:08:02.072 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de inventario: 3
+2025-09-14 23:08:02.072 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Actualizar cantidad en inventario
+2025-09-14 23:08:02.072 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Iniciando proceso de actualización de inventario
+2025-09-14 23:08:05.973 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - ID de producto ingresado: 1
+2025-09-14 23:08:05.974 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Buscando producto con ID: 1 pa' actualizar su inventario
+2025-09-14 23:08:05.982 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Producto encontrado: Leche Entera (ID: 1)
+2025-09-14 23:08:05.982 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Buscando inventario para el producto: http://localhost:8080/api/inventarios/producto/1
+2025-09-14 23:08:05.992 [main] WARN  org.litethinking.cli.service.supermercado.CliServiceImpl - No existe inventario para el producto: Leche Entera
+2025-09-14 23:08:14.143 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Respuesta del usuario para crear nuevo inventario: s
+2025-09-14 23:08:14.144 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Creando nuevo inventario para producto: Leche Entera
+2025-09-14 23:08:17.045 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Cantidad ingresada: 15
+2025-09-14 23:08:20.885 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Stock mínimo ingresado: 5
+2025-09-14 23:08:26.790 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Stock máximo ingresado: 100
+2025-09-14 23:08:35.230 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Ubicación ingresada: fila 10
+2025-09-14 23:08:35.230 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando nuevo inventario a la API
+2025-09-14 23:08:35.230 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Detalles del nuevo inventario: InventarioDto[id=null, producto=ProductoDto[id=1, nombre=Leche Entera, descripcion=Leche entera de vaca 1L, precio=2.50, categoria=Lácteos, codigoBarras=PRD001], cantidad=15, stockMinimo=5, stockMaximo=100, fechaUltimaReposicion=2025-09-14, ubicacion=fila 10]
+2025-09-14 23:08:35.270 [main] ERROR org.litethinking.cli.service.supermercado.CliServiceImpl - Error HTTP al actualizar el inventario: 404  on POST request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:08:35.258+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+2025-09-14 23:08:38.298 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '1'
+2025-09-14 23:08:38.298 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de inventario: 1
+2025-09-14 23:08:38.298 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Listar todo el inventario
+2025-09-14 23:08:38.298 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Obteniendo lista de todo el inventario
+2025-09-14 23:08:38.299 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando petición a la API: http://localhost:8080/api/inventarios
+2025-09-14 23:08:38.305 [main] ERROR org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Diablo! Error al obtener la lista de inventario: 404  on GET request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:08:38.303+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+org.springframework.web.client.HttpClientErrorException$NotFound: 404  on GET request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:08:38.303+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:147) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.listAllInventory(CliServiceImpl.java:620) [classes/:?]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.inventoryMenu(CliServiceImpl.java:197) [classes/:?]
+	at org.litethinking.cli.CliApplication.run(CliApplication.java:58) [classes/:?]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) [?:?]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) [?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) [?:?]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) [spring-boot-3.5.5.jar:3.5.5]
+	at org.litethinking.cli.CliApplication.main(CliApplication.java:31) [classes/:?]
+2025-09-14 23:08:52.596 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '1'
+2025-09-14 23:08:52.596 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de inventario: 1
+2025-09-14 23:08:52.596 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Listar todo el inventario
+2025-09-14 23:08:52.596 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Obteniendo lista de todo el inventario
+2025-09-14 23:08:52.596 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando petición a la API: http://localhost:8080/api/inventarios
+2025-09-14 23:08:52.603 [main] ERROR org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Diablo! Error al obtener la lista de inventario: 404  on GET request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:08:52.601+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+org.springframework.web.client.HttpClientErrorException$NotFound: 404  on GET request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:08:52.601+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+	at org.springframework.web.client.HttpClientErrorException.create(HttpClientErrorException.java:112) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:186) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.DefaultResponseErrorHandler.handleError(DefaultResponseErrorHandler.java:147) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.handleResponse(RestTemplate.java:953) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:902) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:801) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:712) ~[spring-web-6.2.10.jar:6.2.10]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.listAllInventory(CliServiceImpl.java:620) [classes/:?]
+	at org.litethinking.cli.service.supermercado.CliServiceImpl.inventoryMenu(CliServiceImpl.java:197) [classes/:?]
+	at org.litethinking.cli.CliApplication.run(CliApplication.java:58) [classes/:?]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) [spring-core-6.2.10.jar:6.2.10]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186) [?:?]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153) [?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176) [?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) [?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636) [?:?]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) [spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) [spring-boot-3.5.5.jar:3.5.5]
+	at org.litethinking.cli.CliApplication.main(CliApplication.java:31) [classes/:?]
+2025-09-14 23:08:58.321 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '2'
+2025-09-14 23:08:58.321 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de inventario: 2
+2025-09-14 23:08:58.321 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Buscar inventario por ID de producto
+2025-09-14 23:08:58.321 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Iniciando búsqueda de inventario por ID de producto
+2025-09-14 23:08:59.432 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - ID de producto ingresado: 1
+2025-09-14 23:08:59.433 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Buscando inventario para producto con ID: 1
+2025-09-14 23:08:59.433 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Verificando si el producto existe: http://localhost:8080/api/productos/1
+2025-09-14 23:08:59.440 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Producto encontrado: Leche Entera (ID: 1)
+2025-09-14 23:08:59.440 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Buscando inventario para el producto: http://localhost:8080/api/inventarios/producto/1
+2025-09-14 23:08:59.448 [main] WARN  org.litethinking.cli.service.supermercado.CliServiceImpl - No se encontró inventario para el producto con ID: 1
+2025-09-14 23:09:07.674 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '0'
+2025-09-14 23:09:07.675 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de inventario: 0
+2025-09-14 23:09:07.675 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Volver al menú principal
+2025-09-14 23:09:07.675 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Saliendo del menú de gestión de inventario
+2025-09-14 23:09:07.675 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 23:09:07.675 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando info del cajero logueao: Carlos Rodríguez
+2025-09-14 23:09:13.211 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 4
+2025-09-14 23:09:13.211 [main] DEBUG org.litethinking.cli.CliApplication - Usualio seleccionó la opsión de generar reporte
+2025-09-14 23:09:13.211 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Vamo' a generar un reporte del sistema!
+2025-09-14 23:09:13.225 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Reporte generado con éxito!
+2025-09-14 23:09:13.225 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 23:09:13.225 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando info del cajero logueao: Carlos Rodríguez
+2025-09-14 23:11:56.261 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-14 23:11:56.265 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-14 23:11:56.268 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-14 23:20:03.117 [main] INFO  org.litethinking.cli.CliApplication - Starting CliApplication using Java 24 with PID 12540 (D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\cli\target\classes started by vladi in D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud)
+2025-09-14 23:20:03.124 [main] DEBUG org.litethinking.cli.CliApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-14 23:20:03.125 [main] INFO  org.litethinking.cli.CliApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-14 23:20:03.612 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-14 23:20:03.635 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2025-09-14 23:20:03.963 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-14 23:20:04.182 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:8a3e7730-41ce-42b7-86cc-3151abecf22b user=SA
+2025-09-14 23:20:04.184 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-14 23:20:04.226 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-14 23:20:04.277 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-14 23:20:04.310 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-14 23:20:04.649 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-14 23:20:04.735 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-14 23:20:05.108 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-14 23:20:05.115 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-14 23:20:05.128 [main] DEBUG org.litethinking.cli.config.AppConfig - Creating RestTemplate bean for API communication
+2025-09-14 23:20:05.157 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Servicio CLI inicializado y listo pa' trabajar con la API en: http://localhost:8080/api!
+2025-09-14 23:20:05.157 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Componentes inicializados: RestTemplate, ReportGenerator, URL base: http://localhost:8080/api
+2025-09-14 23:20:05.393 [main] INFO  org.litethinking.cli.CliApplication - Started CliApplication in 2.787 seconds (process running for 4.107)
+2025-09-14 23:20:05.397 [main] INFO  org.litethinking.cli.CliApplication - Iniciando la aplicasión CLI del supelmercao
+2025-09-14 23:20:05.398 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 23:20:13.854 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 5
+2025-09-14 23:20:13.854 [main] DEBUG org.litethinking.cli.CliApplication - Usualio seleccionó la opsión de getión de cajero
+2025-09-14 23:20:13.854 [main] INFO  org.litethinking.cli.CliApplication - Intentando login de cajero
+2025-09-14 23:20:13.854 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Iniciando proceso de login de cajero
+2025-09-14 23:20:53.296 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Código de cajero ingresado: CAJ003
+2025-09-14 23:20:53.296 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando petición a la API: http://localhost:8080/api/cajeros/codigo/CAJ003
+2025-09-14 23:20:53.624 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Login exitoso! Cajero: Carlos Rodríguez (ID: 3)
+2025-09-14 23:20:53.625 [main] INFO  org.litethinking.cli.CliApplication - Login exitoso del cajero: Carlos Rodríguez
+2025-09-14 23:20:53.625 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 23:20:53.626 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando info del cajero logueao: Carlos Rodríguez
+2025-09-14 23:21:00.075 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 4
+2025-09-14 23:21:00.075 [main] DEBUG org.litethinking.cli.CliApplication - Usualio seleccionó la opsión de generar reporte
+2025-09-14 23:21:00.075 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Vamo' a generar un reporte del sistema!
+2025-09-14 23:21:00.151 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Reporte generado con éxito!
+2025-09-14 23:21:00.151 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 23:21:00.151 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando info del cajero logueao: Carlos Rodríguez
+2025-09-14 23:21:10.271 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 2
+2025-09-14 23:21:10.271 [main] DEBUG org.litethinking.cli.CliApplication - Usualio seleccionó la opsión de getión de inventalio
+2025-09-14 23:21:10.271 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Entrando al menú de gestión de inventario
+2025-09-14 23:21:15.791 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '3'
+2025-09-14 23:21:15.791 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de inventario: 3
+2025-09-14 23:21:15.792 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Actualizar cantidad en inventario
+2025-09-14 23:21:15.792 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Iniciando proceso de actualización de inventario
+2025-09-14 23:21:17.873 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - ID de producto ingresado: 1
+2025-09-14 23:21:17.874 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Buscando producto con ID: 1 pa' actualizar su inventario
+2025-09-14 23:21:17.885 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Producto encontrado: Leche Entera (ID: 1)
+2025-09-14 23:21:17.885 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Buscando inventario para el producto: http://localhost:8080/api/inventarios/producto/1
+2025-09-14 23:21:17.895 [main] WARN  org.litethinking.cli.service.supermercado.CliServiceImpl - No existe inventario para el producto: Leche Entera
+2025-09-14 23:21:21.889 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Respuesta del usuario para crear nuevo inventario: s
+2025-09-14 23:21:21.890 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Creando nuevo inventario para producto: Leche Entera
+2025-09-14 23:21:25.601 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Cantidad ingresada: 25
+2025-09-14 23:21:29.218 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Stock mínimo ingresado: 10
+2025-09-14 23:21:33.329 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Stock máximo ingresado: 100
+2025-09-14 23:21:37.933 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Ubicación ingresada: fila3
+2025-09-14 23:21:37.933 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando nuevo inventario a la API
+2025-09-14 23:21:37.933 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Detalles del nuevo inventario: InventarioDto[id=null, producto=ProductoDto[id=1, nombre=Leche Entera, descripcion=Leche entera de vaca 1L, precio=2.50, categoria=Lácteos, codigoBarras=PRD001], cantidad=25, stockMinimo=10, stockMaximo=100, fechaUltimaReposicion=2025-09-14, ubicacion=fila3]
+2025-09-14 23:21:37.975 [main] ERROR org.litethinking.cli.service.supermercado.CliServiceImpl - Error HTTP al actualizar el inventario: 404  on POST request for "http://localhost:8080/api/inventarios": "{"timestamp":"2025-09-15T03:21:37.964+00:00","status":404,"error":"Not Found","path":"/api/inventarios"}"
+2025-09-14 23:21:55.110 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '1'
+2025-09-14 23:21:55.111 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de inventario: 1
+2025-09-14 23:21:55.111 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Listar todo el inventario
+2025-09-14 23:21:55.111 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Obteniendo lista de todo el inventario
+2025-09-14 23:21:55.111 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Enviando Request a la API: http://localhost:8080/api/inventario
+2025-09-14 23:21:55.139 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Encontramo' 10 items de inventario en total!
+2025-09-14 23:21:55.141 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Inventario: Producto=Leche Entera, Cantidad=50, Stock Mínimo=10
+2025-09-14 23:21:55.143 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Inventario: Producto=Pan Integral, Cantidad=30, Stock Mínimo=5
+2025-09-14 23:21:55.143 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Inventario: Producto=Manzanas, Cantidad=75, Stock Mínimo=15
+2025-09-14 23:21:55.144 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Inventario: Producto=Arroz, Cantidad=100, Stock Mínimo=20
+2025-09-14 23:21:55.145 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Inventario: Producto=Atún en Lata, Cantidad=40, Stock Mínimo=8
+2025-09-14 23:21:55.145 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Inventario: Producto=Papel Higiénico, Cantidad=60, Stock Mínimo=12
+2025-09-14 23:21:55.145 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Inventario: Producto=Detergente, Cantidad=25, Stock Mínimo=5
+2025-09-14 23:21:55.146 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Inventario: Producto=Yogurt Natural, Cantidad=35, Stock Mínimo=7
+2025-09-14 23:21:55.146 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Inventario: Producto=Aceite de Oliva, Cantidad=45, Stock Mínimo=9
+2025-09-14 23:21:55.146 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Inventario: Producto=Café Molido, Cantidad=55, Stock Mínimo=11
+2025-09-14 23:22:03.462 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Entrada del usuario para opción: '0'
+2025-09-14 23:22:03.462 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Opción seleccionada en menú de inventario: 0
+2025-09-14 23:22:03.462 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - Usuario seleccionó: Volver al menú principal
+2025-09-14 23:22:03.462 [main] DEBUG org.litethinking.cli.service.supermercado.CliServiceImpl - Saliendo del menú de gestión de inventario
+2025-09-14 23:22:03.462 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 23:22:03.462 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando info del cajero logueao: Carlos Rodríguez
+2025-09-14 23:22:06.420 [main] DEBUG org.litethinking.cli.CliApplication - Usualio ingresó: 4
+2025-09-14 23:22:06.420 [main] DEBUG org.litethinking.cli.CliApplication - Usualio seleccionó la opsión de generar reporte
+2025-09-14 23:22:06.420 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Vamo' a generar un reporte del sistema!
+2025-09-14 23:22:06.434 [main] INFO  org.litethinking.cli.service.supermercado.CliServiceImpl - ¡Reporte generado con éxito!
+2025-09-14 23:22:06.434 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando el menú principá
+2025-09-14 23:22:06.434 [main] DEBUG org.litethinking.cli.CliApplication - Mostrando info del cajero logueao: Carlos Rodríguez
+2025-09-14 23:22:24.669 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-14 23:22:24.672 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-14 23:22:24.676 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
