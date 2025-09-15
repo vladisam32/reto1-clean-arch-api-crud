@@ -256,6 +256,7 @@ public class CliServiceImplTest {
         // When
         cliService.inventoryMenu(scanner);
 
+
         // Then
         String output = outputStream.toString();
         assertTrue(responseEntity!=null&&responseEntity.getBody().id()==1);
