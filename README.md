@@ -1,5 +1,10 @@
 # Clean Architecture CRUD Application
 
+Este proyecto, tambien está documentado en español, ver LEEME.MD.  
+This project is documented in Spanish.
+
+[LEEME.md](LEEME.md)
+
 This is a multi-module Maven project implementing a clean architecture approach for a CRUD application.
 
 ## Project Structure
