@@ -702,9 +702,9 @@ public class CliServiceImpl implements CliService {
                 logger.info("Producto encontrado: {} (ID: {})", producto.nombre(), productoId);
 
                 // Ahora buscamos el inventario para este producto
-                logger.debug("Buscando inventario para el producto: {}/inventarios/producto/{}", apiBaseUrl, productoId);
+                logger.debug("Buscando inventario para el producto: {}/inventario/producto/{}", apiBaseUrl, productoId);
                 ResponseEntity<InventarioDto> response = restTemplate.getForEntity(
-                        apiBaseUrl + "/inventarios/producto/" + productoId,
+                        apiBaseUrl + "/inventario/producto/" + productoId,
                         InventarioDto.class
                 );
 
@@ -786,7 +786,7 @@ public class CliServiceImpl implements CliService {
             try {
                 logger.debug("Buscando inventario para el producto: {}/inventarios/producto/{}", apiBaseUrl, productoId);
                 inventarioResponse = restTemplate.getForEntity(
-                        apiBaseUrl + "/inventarios/producto/" + productoId,
+                        apiBaseUrl + "/inventario/producto/" + productoId,
                         InventarioDto.class
                 );
             } catch (HttpClientErrorException e) {
@@ -837,7 +837,7 @@ public class CliServiceImpl implements CliService {
                     logger.debug("Detalles del nuevo inventario: {}", nuevoInventario);
 
                     ResponseEntity<InventarioDto> createResponse = restTemplate.postForEntity(
-                            apiBaseUrl + "/inventarios",
+                            apiBaseUrl + "/inventario",
                             nuevoInventario,
                             InventarioDto.class
                     );
@@ -903,7 +903,7 @@ public class CliServiceImpl implements CliService {
                 apiBaseUrl, inventario.id());
 
             restTemplate.put(
-                    apiBaseUrl + "/inventarios/" + inventario.id(),
+                    apiBaseUrl + "/inventario/" + inventario.id(),
                     inventarioActualizado
             );
 

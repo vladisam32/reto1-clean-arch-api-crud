@@ -53,7 +53,7 @@ public class InventoryReportGenerator implements ReportGenerator {
 
             // Get all inventory
             ResponseEntity<List<InventarioDto>> inventoryResponse = restTemplate.exchange(
-                    apiBaseUrl + "/inventarios",
+                    apiBaseUrl + "/inventario",
                     HttpMethod.GET,
                     null,
                     new ParameterizedTypeReference<List<InventarioDto>>() {}
