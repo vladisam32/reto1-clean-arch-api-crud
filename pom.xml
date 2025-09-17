@@ -153,6 +153,30 @@
         <pluginManagement>
             <plugins>
                 <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-antrun-plugin</artifactId>
+                    <version>3.0.0</version>
+                    <executions>
+                        <execution>
+                            <phase>install</phase> <!-- Puedes cambiarlo a compile, package, etc. -->
+                            <goals>
+                                <goal>run</goal>
+                            </goals>
+                            <configuration>
+                                <target>
+                                    <echo>
+                                        ##################################################
+                                        #                                                #
+                                        #    COMPILACIÓN EXITOSA - ¡A DESPLEGAR!         #
+                                        #                                                #
+                                        ##################################################
+                                    </echo>
+                                </target>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+                <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
                     <configuration>

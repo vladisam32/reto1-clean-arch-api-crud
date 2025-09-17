@@ -1,16 +1,16 @@
 # MANUAL DE USUAIRO - SISTEMA DE JESTIÓN DE SUPERMERCADO
 
 ## INTRODUCSIÓN
-¡Klk! Bienvenido al Sistema de Jestión de Supermercado, manín. Esta aplicasión te permite administral productos, inventario, cajeros y ventas de manera efisiente y sencilla, tú sabes.
+¡Klk! Bienvenido al Sistema de de Simular Supermercado, manín. Esta aplicaión te permite administral productos, inventario, cajeros y ventas de manera efisiente y sencilla, tú sabes.
 
-## REKISITOS DEL SISTEMA
+## REQUISITOS DEL SISTEMA
 - Java 24 o superior
 - Conexión a internet (pa' la aplicación cliente-servidor)
 
-## INICIAR LA APLICASIÓN
+## INICIAR LA APPLICATION
 
 ### Iniciar el Servidor (API REST)
-1. Abre una terminal o línea de comandos, ¡diablo!
+1. Abre una terminal o línea de comandos,
 2. Navega hasta la carpeta del proyecto
 3. Ejecuta el siguiente comando:
    ```
@@ -81,7 +81,7 @@ Desde el menú principal, selecciona "Gestión de Inventario" pa':
 2. Ingresa el ID del producto (como 1 pa' la Leche Entera con 50 unidades en el Almacén A)
 4. Ingresa la nueva cantidad, ¡dale!
 
-### 4. JESTIÓN DE VENTAS
+### 4. gstion de vtas
 Desde el menú principal, selecciona "Gestión de Ventas" pa':
 - Listar to'as las ventas
 - Buscar venta por ID
@@ -94,7 +94,7 @@ Desde el menú principal, selecciona "Gestión de Ventas" pa':
    - Ingresa el ID del producto (como 3 pa' las Manzanas o 4 pa'l Arroz)
    - Ingresa la cantidad
    - Responde si deseas agregar otro producto
-4. Selecciona el método de pago (efectivo/tarjeta)
+4. Selecciona el método de pago (efec/tarj)
 
 ### 5. GENERACIÓN DE REPORTES
 Desde el menú principal, selecciona "Generar Reporte" pa' crear un informe del sistema, tú sabes.

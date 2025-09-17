@@ -1,25 +1,25 @@
-2025-09-16 20:27:37.814 [main] INFO  org.litethinking.restapi.RestApiApplication - Starting REST API Application
-2025-09-16 20:27:38.278 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
-2025-09-16 20:27:38.323 [main] INFO  org.litethinking.restapi.RestApiApplication - Starting RestApiApplication using Java 24 with PID 32208 (D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\rest-api\target\classes started by vladi in D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud)
-2025-09-16 20:27:38.327 [main] DEBUG org.litethinking.restapi.RestApiApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
-2025-09-16 20:27:38.327 [main] INFO  org.litethinking.restapi.RestApiApplication - No active profile set, falling back to 1 default profile: "default"
-2025-09-16 20:27:39.097 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-16 20:27:39.173 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 8 JPA repository interfaces.
-2025-09-16 20:27:40.145 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-09-16 20:27:40.172 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-09-16 20:27:40.174 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2025-09-16 20:27:40.175 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-16 20:27:40.238 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-09-16 20:27:40.239 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1840 ms
-2025-09-16 20:27:40.460 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-16 20:27:40.539 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-16 20:27:40.592 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-09-16 20:27:41.008 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-16 20:27:41.050 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-09-16 20:27:41.223 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2025-09-16 20:27:41.225 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-09-16 20:27:41.252 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-16 20:27:41.273 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-09-17 00:38:13.370 [main] INFO  org.litethinking.restapi.RestApiApplication - Starting REST API Application
+2025-09-17 00:38:13.964 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-17 00:38:14.014 [main] INFO  org.litethinking.restapi.RestApiApplication - Starting RestApiApplication using Java 24 with PID 31792 (D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\rest-api\target\classes started by vladi in D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud)
+2025-09-17 00:38:14.017 [main] DEBUG org.litethinking.restapi.RestApiApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-17 00:38:14.018 [main] INFO  org.litethinking.restapi.RestApiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-17 00:38:14.737 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-17 00:38:14.804 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 8 JPA repository interfaces.
+2025-09-17 00:38:15.835 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-17 00:38:15.851 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-17 00:38:15.853 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-17 00:38:15.853 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-17 00:38:15.918 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-17 00:38:15.919 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1843 ms
+2025-09-17 00:38:16.085 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-17 00:38:16.141 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-17 00:38:16.174 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-17 00:38:16.477 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-17 00:38:16.513 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-17 00:38:16.677 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-09-17 00:38:16.679 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-17 00:38:16.701 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-17 00:38:16.723 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -27,45 +27,45 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-09-16 20:27:42.430 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-16 20:27:42.523 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-16 20:27:42.979 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-16 20:27:43.484 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
-2025-09-16 20:27:43.491 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
-2025-09-16 20:27:43.494 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
-2025-09-16 20:27:43.639 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-16 20:27:44.550 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2025-09-16 20:27:44.629 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-09-16 20:27:44.649 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-09-16 20:27:44.659 [main] INFO  org.litethinking.restapi.RestApiApplication - Started RestApiApplication in 6.744 seconds (process running for 14.275)
-2025-09-16 20:27:44.865 [main] INFO  org.litethinking.restapi.RestApiApplication - REST API Application started successfully
-2025-09-16 20:30:36.674 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-16 20:30:36.683 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-09-16 20:30:36.688 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-16 20:30:36.691 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-09-16 20:30:36.693 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-09-16 20:32:34.945 [main] INFO  org.litethinking.restapi.RestApiApplication - Starting REST API Application
-2025-09-16 20:32:35.586 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
-2025-09-16 20:32:35.657 [main] INFO  org.litethinking.restapi.RestApiApplication - Starting RestApiApplication using Java 24 with PID 35180 (D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\rest-api\target\classes started by vladi in D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud)
-2025-09-16 20:32:35.662 [main] DEBUG org.litethinking.restapi.RestApiApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
-2025-09-16 20:32:35.663 [main] INFO  org.litethinking.restapi.RestApiApplication - No active profile set, falling back to 1 default profile: "default"
-2025-09-16 20:32:36.331 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-16 20:32:36.397 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 8 JPA repository interfaces.
-2025-09-16 20:32:37.248 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-09-16 20:32:37.266 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-09-16 20:32:37.268 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2025-09-16 20:32:37.268 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-16 20:32:37.318 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-09-16 20:32:37.318 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1591 ms
-2025-09-16 20:32:37.491 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-16 20:32:37.564 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-16 20:32:37.607 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-09-16 20:32:37.947 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-16 20:32:37.983 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-09-16 20:32:38.186 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2025-09-16 20:32:38.188 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-09-16 20:32:38.218 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-16 20:32:38.248 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-09-17 00:38:17.890 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-17 00:38:17.986 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-17 00:38:18.405 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-17 00:38:18.891 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:38:18.905 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:38:18.909 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:38:19.098 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-17 00:38:19.972 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-09-17 00:38:20.036 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-09-17 00:38:20.053 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-17 00:38:20.062 [main] INFO  org.litethinking.restapi.RestApiApplication - Started RestApiApplication in 6.572 seconds (process running for 8.275)
+2025-09-17 00:38:20.226 [main] INFO  org.litethinking.restapi.RestApiApplication - REST API Application started successfully
+2025-09-17 00:50:12.040 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-17 00:50:12.052 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-17 00:50:12.059 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-17 00:50:12.063 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-17 00:50:12.067 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-17 00:54:26.745 [main] INFO  org.litethinking.restapi.RestApiApplication - Starting REST API Application
+2025-09-17 00:54:27.746 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-17 00:54:27.864 [main] INFO  org.litethinking.restapi.RestApiApplication - Starting RestApiApplication using Java 24 with PID 22224 (D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\rest-api\target\classes started by vladi in D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud)
+2025-09-17 00:54:27.878 [main] DEBUG org.litethinking.restapi.RestApiApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-17 00:54:27.880 [main] INFO  org.litethinking.restapi.RestApiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-09-17 00:54:29.136 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-17 00:54:29.235 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83 ms. Found 8 JPA repository interfaces.
+2025-09-17 00:54:30.539 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-09-17 00:54:30.566 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-09-17 00:54:30.569 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-09-17 00:54:30.570 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-17 00:54:30.664 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-09-17 00:54:30.665 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2652 ms
+2025-09-17 00:54:30.999 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-17 00:54:31.113 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-17 00:54:31.198 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-09-17 00:54:31.929 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-17 00:54:32.002 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-09-17 00:54:32.324 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-09-17 00:54:32.329 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-09-17 00:54:32.380 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-17 00:54:32.434 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -73,165 +73,18 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-09-16 20:32:39.466 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-16 20:32:39.560 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-16 20:32:39.957 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-16 20:32:40.413 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
-2025-09-16 20:32:40.421 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
-2025-09-16 20:32:40.425 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
-2025-09-16 20:32:40.571 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-16 20:32:41.332 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2025-09-16 20:32:41.419 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-09-16 20:32:41.442 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-09-16 20:32:41.453 [main] INFO  org.litethinking.restapi.RestApiApplication - Started RestApiApplication in 6.405 seconds (process running for 7.77)
-2025-09-16 20:32:41.681 [main] INFO  org.litethinking.restapi.RestApiApplication - REST API Application started successfully
-2025-09-16 20:35:05.835 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-16 20:35:05.843 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-09-16 20:35:05.849 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-16 20:35:05.852 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-09-16 20:35:05.855 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-09-16 20:35:09.551 [main] INFO  org.litethinking.restapi.RestApiApplication - Starting REST API Application
-2025-09-16 20:35:10.023 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
-2025-09-16 20:35:10.067 [main] INFO  org.litethinking.restapi.RestApiApplication - Starting RestApiApplication using Java 24 with PID 29672 (D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\rest-api\target\classes started by vladi in D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud)
-2025-09-16 20:35:10.069 [main] DEBUG org.litethinking.restapi.RestApiApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
-2025-09-16 20:35:10.069 [main] INFO  org.litethinking.restapi.RestApiApplication - No active profile set, falling back to 1 default profile: "default"
-2025-09-16 20:35:10.907 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-16 20:35:10.989 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 8 JPA repository interfaces.
-2025-09-16 20:35:11.787 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-09-16 20:35:11.803 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-09-16 20:35:11.805 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2025-09-16 20:35:11.805 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-16 20:35:11.859 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-09-16 20:35:11.859 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1738 ms
-2025-09-16 20:35:12.021 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-16 20:35:12.079 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-16 20:35:12.111 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-09-16 20:35:12.459 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-16 20:35:12.495 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-09-16 20:35:12.705 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2025-09-16 20:35:12.707 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-09-16 20:35:12.733 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-16 20:35:12.757 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 2.3.232
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-09-16 20:35:13.895 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-16 20:35:13.981 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-16 20:35:14.453 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-16 20:35:14.948 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
-2025-09-16 20:35:14.955 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
-2025-09-16 20:35:14.959 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
-2025-09-16 20:35:15.108 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-16 20:35:15.795 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2025-09-16 20:35:15.869 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-09-16 20:35:15.887 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-09-16 20:35:15.897 [main] INFO  org.litethinking.restapi.RestApiApplication - Started RestApiApplication in 6.257 seconds (process running for 7.716)
-2025-09-16 20:35:16.138 [main] INFO  org.litethinking.restapi.RestApiApplication - REST API Application started successfully
-2025-09-16 20:36:39.323 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-16 20:36:39.324 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-09-16 20:36:39.329 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
-2025-09-16 20:36:50.277 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-16 20:36:50.286 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-09-16 20:36:50.293 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-16 20:36:50.296 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-09-16 20:36:50.298 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-09-16 20:41:49.404 [main] INFO  org.litethinking.restapi.RestApiApplication - Starting REST API Application
-2025-09-16 20:41:49.823 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
-2025-09-16 20:41:49.874 [main] INFO  org.litethinking.restapi.RestApiApplication - Starting RestApiApplication using Java 24 with PID 28896 (D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\rest-api\target\classes started by vladi in D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud)
-2025-09-16 20:41:49.878 [main] DEBUG org.litethinking.restapi.RestApiApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
-2025-09-16 20:41:49.879 [main] INFO  org.litethinking.restapi.RestApiApplication - No active profile set, falling back to 1 default profile: "default"
-2025-09-16 20:41:50.555 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-16 20:41:50.614 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 8 JPA repository interfaces.
-2025-09-16 20:41:51.542 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-09-16 20:41:51.564 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-09-16 20:41:51.566 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2025-09-16 20:41:51.567 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-16 20:41:51.634 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-09-16 20:41:51.635 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1692 ms
-2025-09-16 20:41:51.895 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-16 20:41:51.980 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-16 20:41:52.033 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-09-16 20:41:52.501 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-16 20:41:52.550 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-09-16 20:41:52.774 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2025-09-16 20:41:52.776 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-09-16 20:41:52.801 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-16 20:41:52.823 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 2.3.232
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-09-16 20:41:54.244 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-16 20:41:54.344 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-16 20:41:54.824 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-16 20:41:55.365 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
-2025-09-16 20:41:55.373 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
-2025-09-16 20:41:55.378 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
-2025-09-16 20:41:55.540 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-16 20:41:56.477 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2025-09-16 20:41:56.560 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-09-16 20:41:56.582 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-09-16 20:41:56.593 [main] INFO  org.litethinking.restapi.RestApiApplication - Started RestApiApplication in 7.109 seconds (process running for 8.48)
-2025-09-16 20:41:56.819 [main] INFO  org.litethinking.restapi.RestApiApplication - REST API Application started successfully
-2025-09-16 20:59:39.009 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-16 20:59:39.018 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-09-16 20:59:39.024 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-16 20:59:39.026 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-09-16 20:59:39.029 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2025-09-16 20:59:42.485 [main] INFO  org.litethinking.restapi.RestApiApplication - Starting REST API Application
-2025-09-16 20:59:42.923 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
-2025-09-16 20:59:42.965 [main] INFO  org.litethinking.restapi.RestApiApplication - Starting RestApiApplication using Java 24 with PID 13672 (D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud\rest-api\target\classes started by vladi in D:\TOOLS-Arquitectura\ejercicios\reto1-clean-arch-api-crud)
-2025-09-16 20:59:42.967 [main] DEBUG org.litethinking.restapi.RestApiApplication - Running with Spring Boot v3.5.5, Spring v6.2.10
-2025-09-16 20:59:42.968 [main] INFO  org.litethinking.restapi.RestApiApplication - No active profile set, falling back to 1 default profile: "default"
-2025-09-16 20:59:43.683 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-09-16 20:59:43.758 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 8 JPA repository interfaces.
-2025-09-16 20:59:44.698 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2025-09-16 20:59:44.720 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2025-09-16 20:59:44.722 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2025-09-16 20:59:44.722 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-16 20:59:44.788 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2025-09-16 20:59:44.788 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1771 ms
-2025-09-16 20:59:44.995 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-09-16 20:59:45.083 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
-2025-09-16 20:59:45.130 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-09-16 20:59:45.499 [main] INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-09-16 20:59:45.575 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-09-16 20:59:45.791 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
-2025-09-16 20:59:45.793 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2025-09-16 20:59:45.824 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-09-16 20:59:45.848 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 2.3.232
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-09-16 20:59:46.992 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-09-16 20:59:47.090 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-09-16 20:59:47.505 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-09-16 20:59:47.980 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
-2025-09-16 20:59:47.988 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
-2025-09-16 20:59:47.991 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
-2025-09-16 20:59:48.155 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-09-16 20:59:48.934 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2025-09-16 20:59:49.008 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2025-09-16 20:59:49.025 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
-2025-09-16 20:59:49.035 [main] INFO  org.litethinking.restapi.RestApiApplication - Started RestApiApplication in 6.472 seconds (process running for 7.806)
-2025-09-16 20:59:49.276 [main] INFO  org.litethinking.restapi.RestApiApplication - REST API Application started successfully
-2025-09-16 21:13:26.060 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-16 21:13:26.060 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2025-09-16 21:13:26.062 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
-2025-09-16 23:33:17.129 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m58s857ms876µs400ns).
-2025-09-16 23:33:56.449 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-16 23:33:56.474 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
-2025-09-16 23:33:56.499 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-09-16 23:33:56.524 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2025-09-16 23:33:56.536 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-09-17 00:54:34.679 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-17 00:54:34.823 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-17 00:54:35.573 [main] INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-17 00:54:36.264 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:54:36.276 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:54:36.282 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:54:36.558 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-17 00:54:37.707 [main] INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-09-17 00:54:37.833 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-09-17 00:54:37.842 [main] INFO  org.litethinking.restapi.RestApiApplication - Started RestApiApplication in 10.956 seconds (process running for 13.862)
+2025-09-17 00:54:37.844 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-17 00:54:37.856 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-09-17 00:54:37.861 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-17 00:54:37.864 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-09-17 00:54:37.866 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

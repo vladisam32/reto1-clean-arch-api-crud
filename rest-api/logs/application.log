@@ -184,3 +184,1305 @@
 2025-09-17 00:20:07.963 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale found! ID: 1, Customer: Juan Pérez, Total: $100.00
 2025-09-17 00:20:07.969 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 2
 2025-09-17 00:20:07.969 [main] WARN  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - No sale found with ID: 2
+2025-09-17 00:26:42.554 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:26:42.695 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-17 00:26:43.235 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:43.237 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:43.244 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 4 ms
+2025-09-17 00:26:43.335 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con código: CAJ001
+2025-09-17 00:26:43.338 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero encontrao por código: Juan Pérez
+2025-09-17 00:26:43.496 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con código: CAJ999
+2025-09-17 00:26:43.497 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorCajero - No se encontró ningún cajero con código: CAJ999
+2025-09-17 00:26:43.512 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:26:43.525 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:43.525 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:43.525 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:43.526 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Obteniendo toos los cajeros
+2025-09-17 00:26:43.527 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 2 cajeros
+2025-09-17 00:26:43.541 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:26:43.552 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:43.552 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:43.553 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:43.557 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajeros del turno: Mañana
+2025-09-17 00:26:43.558 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 2 cajeros en el turno Mañana
+2025-09-17 00:26:43.563 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajeros del turno: Noche
+2025-09-17 00:26:43.564 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 0 cajeros en el turno Noche
+2025-09-17 00:26:43.567 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:26:43.587 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:43.588 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:43.588 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:43.655 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Creando un cajero nuevo con nombre: Juan Pérez
+2025-09-17 00:26:43.656 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero creao exitosamente con ID: 1
+2025-09-17 00:26:43.662 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:26:43.672 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:43.672 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:43.673 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:26:43.674 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con ID: 1
+2025-09-17 00:26:43.676 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero encontrao: Juan Pérez
+2025-09-17 00:26:43.679 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con ID: 2
+2025-09-17 00:26:43.680 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorCajero - No se encontró ningún cajero con ID: 2
+2025-09-17 00:26:43.682 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:26:43.691 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:43.691 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:43.691 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:43.693 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Eliminando cajero con ID: 1
+2025-09-17 00:26:43.693 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero eliminao exitosamente
+2025-09-17 00:26:43.697 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:26:43.707 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:43.707 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:43.707 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:43.712 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Actualizando el cajero con ID: 1
+2025-09-17 00:26:43.712 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero actualizao exitosamente: Juan Pérez Actualizado
+2025-09-17 00:26:43.779 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:43.780 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:43.780 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:43.803 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:43.803 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:43.803 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:43.820 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:43.820 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:43.820 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:43.840 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:43.841 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:43.841 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:43.875 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:43.876 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:43.876 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:43.894 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:43.894 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:43.894 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:43.910 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:43.910 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:43.910 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:43.966 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:26:44.011 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.012 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.012 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.030 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:26:44.038 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.039 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.039 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.040 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Obteniendo lista de todos los productos
+2025-09-17 00:26:44.040 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Se encontraron 2 productos en total
+2025-09-17 00:26:44.041 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Categorías encontradas: Categoría 1, Categoría 2
+2025-09-17 00:26:44.048 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:26:44.057 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.057 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.057 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.067 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:26:44.076 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.076 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.077 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:26:44.084 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Creando nuevo producto: Producto 1
+2025-09-17 00:26:44.085 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto creado con ID: 1
+2025-09-17 00:26:44.091 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:26:44.100 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.100 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.100 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.109 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:26:44.118 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.118 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.118 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.120 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Buscando producto con ID: 1
+2025-09-17 00:26:44.120 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto encontrado: ID=1, Nombre=Producto 1
+2025-09-17 00:26:44.124 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Buscando producto con ID: 2
+2025-09-17 00:26:44.124 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto no encontrado con ID: 2
+2025-09-17 00:26:44.128 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:26:44.136 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.137 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.137 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.138 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Eliminando producto con ID: 1
+2025-09-17 00:26:44.139 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto eliminado con ID: 1
+2025-09-17 00:26:44.217 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.218 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.218 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.246 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.247 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.247 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.267 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.267 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.267 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.290 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.291 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.291 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.307 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.307 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.307 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.324 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.324 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.324 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.385 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:26:44.400 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.400 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.401 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.403 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales for customer: Juan Pérez
+2025-09-17 00:26:44.403 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales for customer: Juan Pérez
+2025-09-17 00:26:44.404 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:26:44.401957200
+2025-09-17 00:26:44.404 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 3, Customer: Juan Pérez, Total: $300.00, Date: 2025-09-16T00:26:44.401957200
+2025-09-17 00:26:44.416 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:26:44.425 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.425 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.426 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:26:44.437 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales between 2025-09-15T00:26:44.427046800 and 2025-09-17T00:26:44.427046800
+2025-09-17 00:26:44.438 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales between those dates
+2025-09-17 00:26:44.443 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Total sold in that period: $300.0
+2025-09-17 00:26:44.444 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale IDs found: 1, 2
+2025-09-17 00:26:44.453 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:26:44.461 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.461 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.461 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.472 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Updating sale with ID: 1, Customer: Juan Pérez Actualizado
+2025-09-17 00:26:44.472 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale updated successfully! ID: 1, Customer: Juan Pérez Actualizado, New Total: $150.00
+2025-09-17 00:26:44.481 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:26:44.500 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.500 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.501 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:26:44.502 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding all sales
+2025-09-17 00:26:44.503 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales in total
+2025-09-17 00:26:44.503 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:26:44.501137400
+2025-09-17 00:26:44.503 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 2, Customer: María López, Total: $200.00, Date: 2025-09-16T00:26:44.501137400
+2025-09-17 00:26:44.512 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:26:44.520 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.520 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.520 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.526 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Creating new sale for customer: Juan Pérez
+2025-09-17 00:26:44.526 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale created successfully! ID: 1, Customer: Juan Pérez, Total: $100.00
+2025-09-17 00:26:44.532 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:26:44.542 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.542 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.542 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.544 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Deleting sale with ID: 1
+2025-09-17 00:26:44.544 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale deleted successfully! ID: 1
+2025-09-17 00:26:44.549 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:26:44.566 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.567 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.567 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.570 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales with payment method: Efectivo
+2025-09-17 00:26:44.570 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales with payment method 'Efectivo'
+2025-09-17 00:26:44.571 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Total sold with Efectivo: $500.0
+2025-09-17 00:26:44.571 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:26:44.568711100
+2025-09-17 00:26:44.571 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 4, Customer: Ana Gómez, Total: $400.00, Date: 2025-09-16T00:26:44.568711100
+2025-09-17 00:26:44.584 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:26:44.595 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:26:44.595 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:26:44.595 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:26:44.598 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 1
+2025-09-17 00:26:44.599 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale found! ID: 1, Customer: Juan Pérez, Total: $100.00
+2025-09-17 00:26:44.607 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 2
+2025-09-17 00:26:44.607 [main] WARN  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - No sale found with ID: 2
+2025-09-17 00:29:36.396 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:29:36.587 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-17 00:29:37.083 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.083 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.085 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2025-09-17 00:29:37.178 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con código: CAJ001
+2025-09-17 00:29:37.179 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero encontrao por código: Juan Pérez
+2025-09-17 00:29:37.306 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con código: CAJ999
+2025-09-17 00:29:37.306 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorCajero - No se encontró ningún cajero con código: CAJ999
+2025-09-17 00:29:37.320 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:29:37.334 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.334 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.335 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.336 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Obteniendo toos los cajeros
+2025-09-17 00:29:37.337 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 2 cajeros
+2025-09-17 00:29:37.350 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:29:37.361 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.361 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.362 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:29:37.364 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajeros del turno: Mañana
+2025-09-17 00:29:37.365 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 2 cajeros en el turno Mañana
+2025-09-17 00:29:37.372 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajeros del turno: Noche
+2025-09-17 00:29:37.373 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 0 cajeros en el turno Noche
+2025-09-17 00:29:37.377 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:29:37.398 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.398 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.398 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.456 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Creando un cajero nuevo con nombre: Juan Pérez
+2025-09-17 00:29:37.457 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero creao exitosamente con ID: 1
+2025-09-17 00:29:37.463 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:29:37.472 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.473 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.473 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.475 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con ID: 1
+2025-09-17 00:29:37.476 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero encontrao: Juan Pérez
+2025-09-17 00:29:37.479 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con ID: 2
+2025-09-17 00:29:37.480 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorCajero - No se encontró ningún cajero con ID: 2
+2025-09-17 00:29:37.483 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:29:37.495 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.495 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.495 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.497 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Eliminando cajero con ID: 1
+2025-09-17 00:29:37.497 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero eliminao exitosamente
+2025-09-17 00:29:37.500 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:29:37.509 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.509 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.509 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.514 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Actualizando el cajero con ID: 1
+2025-09-17 00:29:37.515 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero actualizao exitosamente: Juan Pérez Actualizado
+2025-09-17 00:29:37.585 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.585 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.585 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.607 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.607 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.607 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.623 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.623 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.623 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.645 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.645 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.645 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.683 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.683 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.683 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.701 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.701 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.701 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.715 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.716 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.716 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.763 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:29:37.805 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.805 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.805 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.823 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:29:37.834 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.835 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.835 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.836 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Obteniendo lista de todos los productos
+2025-09-17 00:29:37.836 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Se encontraron 2 productos en total
+2025-09-17 00:29:37.837 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Categorías encontradas: Categoría 1, Categoría 2
+2025-09-17 00:29:37.846 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:29:37.855 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.856 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.856 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.866 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:29:37.875 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.877 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.878 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.886 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Creando nuevo producto: Producto 1
+2025-09-17 00:29:37.887 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto creado con ID: 1
+2025-09-17 00:29:37.893 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:29:37.902 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.902 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.902 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.911 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:29:37.920 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.920 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.920 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:37.922 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Buscando producto con ID: 1
+2025-09-17 00:29:37.922 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto encontrado: ID=1, Nombre=Producto 1
+2025-09-17 00:29:37.928 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Buscando producto con ID: 2
+2025-09-17 00:29:37.928 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto no encontrado con ID: 2
+2025-09-17 00:29:37.931 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:29:37.937 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:37.937 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:37.938 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:29:37.940 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Eliminando producto con ID: 1
+2025-09-17 00:29:37.940 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto eliminado con ID: 1
+2025-09-17 00:29:38.002 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:38.002 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:38.002 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:38.022 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:38.022 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:38.022 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:38.042 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:38.042 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:38.043 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:29:38.068 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:38.069 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:38.069 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:38.088 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:38.089 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:38.089 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:38.110 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:38.110 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:38.111 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:38.183 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:29:38.196 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:38.196 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:38.196 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:38.198 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales for customer: Juan Pérez
+2025-09-17 00:29:38.198 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales for customer: Juan Pérez
+2025-09-17 00:29:38.198 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:29:38.197683700
+2025-09-17 00:29:38.198 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 3, Customer: Juan Pérez, Total: $300.00, Date: 2025-09-16T00:29:38.197683700
+2025-09-17 00:29:38.207 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:29:38.214 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:38.214 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:38.215 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:29:38.222 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales between 2025-09-15T00:29:38.215877600 and 2025-09-17T00:29:38.215877600
+2025-09-17 00:29:38.223 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales between those dates
+2025-09-17 00:29:38.227 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Total sold in that period: $300.0
+2025-09-17 00:29:38.228 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale IDs found: 1, 2
+2025-09-17 00:29:38.237 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:29:38.250 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:38.250 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:38.250 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:38.275 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Updating sale with ID: 1, Customer: Juan Pérez Actualizado
+2025-09-17 00:29:38.276 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale updated successfully! ID: 1, Customer: Juan Pérez Actualizado, New Total: $150.00
+2025-09-17 00:29:38.283 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:29:38.291 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:38.291 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:38.291 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:38.292 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding all sales
+2025-09-17 00:29:38.292 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales in total
+2025-09-17 00:29:38.293 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:29:38.291215900
+2025-09-17 00:29:38.293 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 2, Customer: María López, Total: $200.00, Date: 2025-09-16T00:29:38.291215900
+2025-09-17 00:29:38.302 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:29:38.313 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:38.313 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:38.313 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:38.319 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Creating new sale for customer: Juan Pérez
+2025-09-17 00:29:38.319 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale created successfully! ID: 1, Customer: Juan Pérez, Total: $100.00
+2025-09-17 00:29:38.329 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:29:38.339 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:38.340 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:38.340 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:38.342 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Deleting sale with ID: 1
+2025-09-17 00:29:38.343 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale deleted successfully! ID: 1
+2025-09-17 00:29:38.347 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:29:38.357 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:38.357 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:38.358 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:38.362 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales with payment method: Efectivo
+2025-09-17 00:29:38.363 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales with payment method 'Efectivo'
+2025-09-17 00:29:38.365 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Total sold with Efectivo: $500.0
+2025-09-17 00:29:38.365 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:29:38.360873500
+2025-09-17 00:29:38.366 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 4, Customer: Ana Gómez, Total: $400.00, Date: 2025-09-16T00:29:38.360873500
+2025-09-17 00:29:38.378 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:29:38.384 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:29:38.385 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:29:38.385 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:29:38.388 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 1
+2025-09-17 00:29:38.388 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale found! ID: 1, Customer: Juan Pérez, Total: $100.00
+2025-09-17 00:29:38.394 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 2
+2025-09-17 00:29:38.394 [main] WARN  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - No sale found with ID: 2
+2025-09-17 00:32:19.928 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:32:20.125 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-17 00:32:20.801 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:20.802 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:20.804 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2025-09-17 00:32:20.899 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con código: CAJ001
+2025-09-17 00:32:20.901 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero encontrao por código: Juan Pérez
+2025-09-17 00:32:21.023 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con código: CAJ999
+2025-09-17 00:32:21.023 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorCajero - No se encontró ningún cajero con código: CAJ999
+2025-09-17 00:32:21.044 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:32:21.066 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.066 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.067 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.069 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Obteniendo toos los cajeros
+2025-09-17 00:32:21.069 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 2 cajeros
+2025-09-17 00:32:21.095 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:32:21.133 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.133 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.133 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.136 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajeros del turno: Mañana
+2025-09-17 00:32:21.137 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 2 cajeros en el turno Mañana
+2025-09-17 00:32:21.147 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajeros del turno: Noche
+2025-09-17 00:32:21.147 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 0 cajeros en el turno Noche
+2025-09-17 00:32:21.153 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:32:21.182 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.183 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.183 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.284 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Creando un cajero nuevo con nombre: Juan Pérez
+2025-09-17 00:32:21.284 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero creao exitosamente con ID: 1
+2025-09-17 00:32:21.291 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:32:21.311 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.311 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.311 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.314 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con ID: 1
+2025-09-17 00:32:21.314 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero encontrao: Juan Pérez
+2025-09-17 00:32:21.321 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con ID: 2
+2025-09-17 00:32:21.322 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorCajero - No se encontró ningún cajero con ID: 2
+2025-09-17 00:32:21.326 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:32:21.353 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.353 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.354 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.356 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Eliminando cajero con ID: 1
+2025-09-17 00:32:21.357 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero eliminao exitosamente
+2025-09-17 00:32:21.363 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:32:21.376 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.377 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.377 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.383 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Actualizando el cajero con ID: 1
+2025-09-17 00:32:21.384 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero actualizao exitosamente: Juan Pérez Actualizado
+2025-09-17 00:32:21.466 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.466 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.466 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.490 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.490 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.490 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.513 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.514 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.514 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.543 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.544 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.544 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.594 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.594 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.595 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.615 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.615 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.615 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.639 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.639 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.640 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:32:21.710 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:32:21.774 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.774 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.774 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.790 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:32:21.801 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.801 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.801 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.803 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Obteniendo lista de todos los productos
+2025-09-17 00:32:21.803 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Se encontraron 2 productos en total
+2025-09-17 00:32:21.805 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Categorías encontradas: Categoría 1, Categoría 2
+2025-09-17 00:32:21.813 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:32:21.822 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.823 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.823 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.838 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:32:21.848 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.848 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.848 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.861 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Creando nuevo producto: Producto 1
+2025-09-17 00:32:21.861 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto creado con ID: 1
+2025-09-17 00:32:21.873 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:32:21.885 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.885 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.885 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.901 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:32:21.915 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.916 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.916 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.919 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Buscando producto con ID: 1
+2025-09-17 00:32:21.920 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto encontrado: ID=1, Nombre=Producto 1
+2025-09-17 00:32:21.927 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Buscando producto con ID: 2
+2025-09-17 00:32:21.928 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto no encontrado con ID: 2
+2025-09-17 00:32:21.933 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:32:21.942 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:21.944 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:21.944 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:21.947 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Eliminando producto con ID: 1
+2025-09-17 00:32:21.947 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto eliminado con ID: 1
+2025-09-17 00:32:22.012 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:22.012 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:22.012 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:22.032 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:22.032 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:22.032 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:22.049 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:22.049 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:22.049 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:22.066 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:22.066 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:22.066 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:22.082 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:22.082 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:22.083 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:22.099 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:22.099 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:22.100 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:32:22.159 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:32:22.172 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:22.173 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:22.173 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:22.175 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales for customer: Juan Pérez
+2025-09-17 00:32:22.176 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales for customer: Juan Pérez
+2025-09-17 00:32:22.176 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:32:22.173921200
+2025-09-17 00:32:22.177 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 3, Customer: Juan Pérez, Total: $300.00, Date: 2025-09-16T00:32:22.173921200
+2025-09-17 00:32:22.187 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:32:22.196 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:22.196 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:22.196 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:22.205 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales between 2025-09-15T00:32:22.197642900 and 2025-09-17T00:32:22.197642900
+2025-09-17 00:32:22.205 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales between those dates
+2025-09-17 00:32:22.209 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Total sold in that period: $300.0
+2025-09-17 00:32:22.211 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale IDs found: 1, 2
+2025-09-17 00:32:22.218 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:32:22.235 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:22.235 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:22.235 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:22.245 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Updating sale with ID: 1, Customer: Juan Pérez Actualizado
+2025-09-17 00:32:22.246 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale updated successfully! ID: 1, Customer: Juan Pérez Actualizado, New Total: $150.00
+2025-09-17 00:32:22.254 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:32:22.260 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:22.261 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:22.261 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:22.262 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding all sales
+2025-09-17 00:32:22.263 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales in total
+2025-09-17 00:32:22.263 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:32:22.261767200
+2025-09-17 00:32:22.263 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 2, Customer: María López, Total: $200.00, Date: 2025-09-16T00:32:22.261767200
+2025-09-17 00:32:22.269 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:32:22.277 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:22.278 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:22.278 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:22.284 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Creating new sale for customer: Juan Pérez
+2025-09-17 00:32:22.284 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale created successfully! ID: 1, Customer: Juan Pérez, Total: $100.00
+2025-09-17 00:32:22.289 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:32:22.297 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:22.298 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:22.298 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:22.299 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Deleting sale with ID: 1
+2025-09-17 00:32:22.299 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale deleted successfully! ID: 1
+2025-09-17 00:32:22.302 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:32:22.308 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:22.308 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:22.308 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:22.310 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales with payment method: Efectivo
+2025-09-17 00:32:22.310 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales with payment method 'Efectivo'
+2025-09-17 00:32:22.312 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Total sold with Efectivo: $500.0
+2025-09-17 00:32:22.312 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:32:22.308179
+2025-09-17 00:32:22.312 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 4, Customer: Ana Gómez, Total: $400.00, Date: 2025-09-16T00:32:22.308179
+2025-09-17 00:32:22.320 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:32:22.327 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:32:22.328 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:32:22.328 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:32:22.330 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 1
+2025-09-17 00:32:22.330 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale found! ID: 1, Customer: Juan Pérez, Total: $100.00
+2025-09-17 00:32:22.336 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 2
+2025-09-17 00:32:22.336 [main] WARN  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - No sale found with ID: 2
+2025-09-17 00:43:30.523 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:43:30.678 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-17 00:43:31.204 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:31.205 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:31.210 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 3 ms
+2025-09-17 00:43:31.308 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con código: CAJ001
+2025-09-17 00:43:31.310 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero encontrao por código: Juan Pérez
+2025-09-17 00:43:31.428 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con código: CAJ999
+2025-09-17 00:43:31.428 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorCajero - No se encontró ningún cajero con código: CAJ999
+2025-09-17 00:43:31.442 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:43:31.454 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:31.455 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:31.455 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:31.456 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Obteniendo toos los cajeros
+2025-09-17 00:43:31.456 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 2 cajeros
+2025-09-17 00:43:31.471 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:43:31.493 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:31.496 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:31.497 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:31.501 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajeros del turno: Mañana
+2025-09-17 00:43:31.502 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 2 cajeros en el turno Mañana
+2025-09-17 00:43:31.508 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajeros del turno: Noche
+2025-09-17 00:43:31.508 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 0 cajeros en el turno Noche
+2025-09-17 00:43:31.513 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:43:31.524 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:31.525 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:31.525 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:31.584 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Creando un cajero nuevo con nombre: Juan Pérez
+2025-09-17 00:43:31.585 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero creao exitosamente con ID: 1
+2025-09-17 00:43:31.590 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:43:31.601 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:31.601 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:31.601 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:31.604 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con ID: 1
+2025-09-17 00:43:31.604 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero encontrao: Juan Pérez
+2025-09-17 00:43:31.607 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con ID: 2
+2025-09-17 00:43:31.607 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorCajero - No se encontró ningún cajero con ID: 2
+2025-09-17 00:43:31.610 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:43:31.619 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:31.619 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:31.619 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:31.621 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Eliminando cajero con ID: 1
+2025-09-17 00:43:31.621 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero eliminao exitosamente
+2025-09-17 00:43:31.624 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:43:31.632 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:31.634 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:31.634 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:31.639 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Actualizando el cajero con ID: 1
+2025-09-17 00:43:31.640 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero actualizao exitosamente: Juan Pérez Actualizado
+2025-09-17 00:43:31.705 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:31.705 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:31.705 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:31.730 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:31.731 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:31.731 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:31.748 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:31.749 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:31.749 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:31.771 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:31.772 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:31.772 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:31.815 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:31.815 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:31.815 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:31.839 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:31.839 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:31.839 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:31.862 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:31.862 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:31.863 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:31.948 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:43:32.016 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.017 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.017 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.043 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:43:32.053 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.054 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.055 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:43:32.057 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Obteniendo lista de todos los productos
+2025-09-17 00:43:32.058 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Se encontraron 2 productos en total
+2025-09-17 00:43:32.059 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Categorías encontradas: Categoría 1, Categoría 2
+2025-09-17 00:43:32.073 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:43:32.089 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.090 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.090 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.105 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:43:32.123 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.124 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.124 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.135 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Creando nuevo producto: Producto 1
+2025-09-17 00:43:32.136 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto creado con ID: 1
+2025-09-17 00:43:32.144 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:43:32.156 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.156 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.156 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.170 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:43:32.184 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.185 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.185 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.189 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Buscando producto con ID: 1
+2025-09-17 00:43:32.189 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto encontrado: ID=1, Nombre=Producto 1
+2025-09-17 00:43:32.195 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Buscando producto con ID: 2
+2025-09-17 00:43:32.196 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto no encontrado con ID: 2
+2025-09-17 00:43:32.201 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:43:32.210 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.211 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.211 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.213 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Eliminando producto con ID: 1
+2025-09-17 00:43:32.213 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto eliminado con ID: 1
+2025-09-17 00:43:32.287 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.287 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.288 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.314 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.314 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.315 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.340 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.340 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.340 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.371 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.371 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.371 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.397 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.397 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.398 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:43:32.419 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.420 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.420 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.488 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:43:32.505 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.505 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.505 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.507 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales for customer: Juan Pérez
+2025-09-17 00:43:32.507 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales for customer: Juan Pérez
+2025-09-17 00:43:32.507 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:43:32.506625600
+2025-09-17 00:43:32.507 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 3, Customer: Juan Pérez, Total: $300.00, Date: 2025-09-16T00:43:32.506625600
+2025-09-17 00:43:32.520 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:43:32.533 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.533 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.534 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.546 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales between 2025-09-15T00:43:32.534129100 and 2025-09-17T00:43:32.534129100
+2025-09-17 00:43:32.547 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales between those dates
+2025-09-17 00:43:32.554 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Total sold in that period: $300.0
+2025-09-17 00:43:32.556 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale IDs found: 1, 2
+2025-09-17 00:43:32.569 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:43:32.598 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.598 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.598 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.615 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Updating sale with ID: 1, Customer: Juan Pérez Actualizado
+2025-09-17 00:43:32.616 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale updated successfully! ID: 1, Customer: Juan Pérez Actualizado, New Total: $150.00
+2025-09-17 00:43:32.627 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:43:32.638 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.639 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.640 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.642 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding all sales
+2025-09-17 00:43:32.643 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales in total
+2025-09-17 00:43:32.643 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:43:32.640725700
+2025-09-17 00:43:32.644 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 2, Customer: María López, Total: $200.00, Date: 2025-09-16T00:43:32.640725700
+2025-09-17 00:43:32.656 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:43:32.668 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.668 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.669 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.676 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Creating new sale for customer: Juan Pérez
+2025-09-17 00:43:32.676 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale created successfully! ID: 1, Customer: Juan Pérez, Total: $100.00
+2025-09-17 00:43:32.686 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:43:32.698 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.698 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.698 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.699 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Deleting sale with ID: 1
+2025-09-17 00:43:32.700 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale deleted successfully! ID: 1
+2025-09-17 00:43:32.704 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:43:32.713 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.713 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.713 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.715 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales with payment method: Efectivo
+2025-09-17 00:43:32.716 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales with payment method 'Efectivo'
+2025-09-17 00:43:32.716 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Total sold with Efectivo: $500.0
+2025-09-17 00:43:32.717 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:43:32.713753500
+2025-09-17 00:43:32.717 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 4, Customer: Ana Gómez, Total: $400.00, Date: 2025-09-16T00:43:32.713753500
+2025-09-17 00:43:32.727 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:43:32.735 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:43:32.737 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:43:32.737 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:43:32.739 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 1
+2025-09-17 00:43:32.739 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale found! ID: 1, Customer: Juan Pérez, Total: $100.00
+2025-09-17 00:43:32.746 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 2
+2025-09-17 00:43:32.746 [main] WARN  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - No sale found with ID: 2
+2025-09-17 00:46:19.998 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:46:20.211 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-17 00:46:20.818 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:20.818 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:20.820 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2025-09-17 00:46:20.905 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con código: CAJ001
+2025-09-17 00:46:20.906 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero encontrao por código: Juan Pérez
+2025-09-17 00:46:21.020 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con código: CAJ999
+2025-09-17 00:46:21.020 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorCajero - No se encontró ningún cajero con código: CAJ999
+2025-09-17 00:46:21.034 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:46:21.050 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.050 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.051 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:46:21.053 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Obteniendo toos los cajeros
+2025-09-17 00:46:21.053 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 2 cajeros
+2025-09-17 00:46:21.070 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:46:21.091 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.091 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.091 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.098 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajeros del turno: Mañana
+2025-09-17 00:46:21.099 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 2 cajeros en el turno Mañana
+2025-09-17 00:46:21.105 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajeros del turno: Noche
+2025-09-17 00:46:21.105 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 0 cajeros en el turno Noche
+2025-09-17 00:46:21.107 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:46:21.118 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.118 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.118 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.173 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Creando un cajero nuevo con nombre: Juan Pérez
+2025-09-17 00:46:21.174 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero creao exitosamente con ID: 1
+2025-09-17 00:46:21.179 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:46:21.188 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.188 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.188 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.191 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con ID: 1
+2025-09-17 00:46:21.191 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero encontrao: Juan Pérez
+2025-09-17 00:46:21.195 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con ID: 2
+2025-09-17 00:46:21.195 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorCajero - No se encontró ningún cajero con ID: 2
+2025-09-17 00:46:21.198 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:46:21.207 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.207 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.207 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.209 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Eliminando cajero con ID: 1
+2025-09-17 00:46:21.209 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero eliminao exitosamente
+2025-09-17 00:46:21.213 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:46:21.223 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.223 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.223 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.226 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Actualizando el cajero con ID: 1
+2025-09-17 00:46:21.227 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero actualizao exitosamente: Juan Pérez Actualizado
+2025-09-17 00:46:21.288 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.289 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.289 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.314 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.314 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.315 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.330 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.330 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.331 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.352 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.353 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.353 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.393 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.394 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.394 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.413 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.413 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.413 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.431 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.431 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.431 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.485 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:46:21.535 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.535 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.536 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.555 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:46:21.566 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.566 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.567 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:46:21.568 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Obteniendo lista de todos los productos
+2025-09-17 00:46:21.568 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Se encontraron 2 productos en total
+2025-09-17 00:46:21.569 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Categorías encontradas: Categoría 1, Categoría 2
+2025-09-17 00:46:21.578 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:46:21.591 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.591 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.591 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.603 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:46:21.611 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.612 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.612 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.621 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Creando nuevo producto: Producto 1
+2025-09-17 00:46:21.621 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto creado con ID: 1
+2025-09-17 00:46:21.628 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:46:21.637 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.637 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.637 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.648 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:46:21.658 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.659 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.659 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.662 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Buscando producto con ID: 1
+2025-09-17 00:46:21.662 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto encontrado: ID=1, Nombre=Producto 1
+2025-09-17 00:46:21.667 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Buscando producto con ID: 2
+2025-09-17 00:46:21.667 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto no encontrado con ID: 2
+2025-09-17 00:46:21.670 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:46:21.678 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.678 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.679 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:46:21.680 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Eliminando producto con ID: 1
+2025-09-17 00:46:21.681 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto eliminado con ID: 1
+2025-09-17 00:46:21.749 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.749 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.750 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:46:21.778 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.778 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.779 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:46:21.801 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.801 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.802 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.831 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.831 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.831 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.851 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.852 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.853 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.871 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.871 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.871 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.933 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:46:21.946 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.947 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.947 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.949 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales for customer: Juan Pérez
+2025-09-17 00:46:21.949 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales for customer: Juan Pérez
+2025-09-17 00:46:21.949 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:46:21.947285700
+2025-09-17 00:46:21.949 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 3, Customer: Juan Pérez, Total: $300.00, Date: 2025-09-16T00:46:21.947285700
+2025-09-17 00:46:21.959 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:46:21.973 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:21.973 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:21.973 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:21.989 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales between 2025-09-15T00:46:21.974051200 and 2025-09-17T00:46:21.974051200
+2025-09-17 00:46:21.990 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales between those dates
+2025-09-17 00:46:21.997 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Total sold in that period: $300.0
+2025-09-17 00:46:21.999 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale IDs found: 1, 2
+2025-09-17 00:46:22.033 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:46:22.063 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:22.063 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:22.063 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:22.077 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Updating sale with ID: 1, Customer: Juan Pérez Actualizado
+2025-09-17 00:46:22.078 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale updated successfully! ID: 1, Customer: Juan Pérez Actualizado, New Total: $150.00
+2025-09-17 00:46:22.084 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:46:22.091 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:22.091 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:22.091 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:22.092 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding all sales
+2025-09-17 00:46:22.093 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales in total
+2025-09-17 00:46:22.094 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:46:22.091471400
+2025-09-17 00:46:22.094 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 2, Customer: María López, Total: $200.00, Date: 2025-09-16T00:46:22.091471400
+2025-09-17 00:46:22.103 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:46:22.113 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:22.114 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:22.114 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:22.120 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Creating new sale for customer: Juan Pérez
+2025-09-17 00:46:22.120 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale created successfully! ID: 1, Customer: Juan Pérez, Total: $100.00
+2025-09-17 00:46:22.126 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:46:22.134 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:22.135 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:22.136 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:46:22.137 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Deleting sale with ID: 1
+2025-09-17 00:46:22.137 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale deleted successfully! ID: 1
+2025-09-17 00:46:22.141 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:46:22.148 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:22.149 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:22.149 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:22.151 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales with payment method: Efectivo
+2025-09-17 00:46:22.152 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales with payment method 'Efectivo'
+2025-09-17 00:46:22.153 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Total sold with Efectivo: $500.0
+2025-09-17 00:46:22.153 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:46:22.150172100
+2025-09-17 00:46:22.153 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 4, Customer: Ana Gómez, Total: $400.00, Date: 2025-09-16T00:46:22.150172100
+2025-09-17 00:46:22.163 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:46:22.169 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:46:22.170 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:46:22.170 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:46:22.172 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 1
+2025-09-17 00:46:22.172 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale found! ID: 1, Customer: Juan Pérez, Total: $100.00
+2025-09-17 00:46:22.179 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 2
+2025-09-17 00:46:22.179 [main] WARN  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - No sale found with ID: 2
+2025-09-17 00:52:16.823 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:52:16.998 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-17 00:52:17.476 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:17.476 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:17.479 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 3 ms
+2025-09-17 00:52:17.561 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con código: CAJ001
+2025-09-17 00:52:17.564 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero encontrao por código: Juan Pérez
+2025-09-17 00:52:17.677 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con código: CAJ999
+2025-09-17 00:52:17.678 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorCajero - No se encontró ningún cajero con código: CAJ999
+2025-09-17 00:52:17.691 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:52:17.703 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:17.703 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:17.704 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:52:17.705 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Obteniendo toos los cajeros
+2025-09-17 00:52:17.705 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 2 cajeros
+2025-09-17 00:52:17.718 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:52:17.731 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:17.731 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:17.731 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:17.732 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajeros del turno: Mañana
+2025-09-17 00:52:17.733 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 2 cajeros en el turno Mañana
+2025-09-17 00:52:17.737 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajeros del turno: Noche
+2025-09-17 00:52:17.738 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 0 cajeros en el turno Noche
+2025-09-17 00:52:17.746 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:52:17.764 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:17.764 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:17.764 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:17.820 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Creando un cajero nuevo con nombre: Juan Pérez
+2025-09-17 00:52:17.820 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero creao exitosamente con ID: 1
+2025-09-17 00:52:17.826 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:52:17.836 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:17.836 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:17.836 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:17.839 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con ID: 1
+2025-09-17 00:52:17.839 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero encontrao: Juan Pérez
+2025-09-17 00:52:17.843 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con ID: 2
+2025-09-17 00:52:17.843 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorCajero - No se encontró ningún cajero con ID: 2
+2025-09-17 00:52:17.847 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:52:17.858 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:17.858 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:17.859 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:17.860 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Eliminando cajero con ID: 1
+2025-09-17 00:52:17.860 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero eliminao exitosamente
+2025-09-17 00:52:17.865 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:52:17.873 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:17.873 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:17.874 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:52:17.878 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Actualizando el cajero con ID: 1
+2025-09-17 00:52:17.879 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero actualizao exitosamente: Juan Pérez Actualizado
+2025-09-17 00:52:17.935 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:17.935 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:17.935 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:17.955 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:17.956 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:17.956 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:17.971 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:17.971 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:17.971 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:17.998 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:17.999 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:17.999 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.043 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.043 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.043 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.062 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.062 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.062 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.077 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.077 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.077 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.124 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:52:18.169 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.169 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.169 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.188 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:52:18.200 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.200 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.200 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.202 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Obteniendo lista de todos los productos
+2025-09-17 00:52:18.202 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Se encontraron 2 productos en total
+2025-09-17 00:52:18.203 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Categorías encontradas: Categoría 1, Categoría 2
+2025-09-17 00:52:18.214 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:52:18.223 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.224 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.225 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:52:18.237 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:52:18.248 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.249 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.249 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.255 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Creando nuevo producto: Producto 1
+2025-09-17 00:52:18.256 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto creado con ID: 1
+2025-09-17 00:52:18.262 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:52:18.269 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.269 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.270 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:52:18.279 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:52:18.290 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.290 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.291 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.295 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Buscando producto con ID: 1
+2025-09-17 00:52:18.295 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto encontrado: ID=1, Nombre=Producto 1
+2025-09-17 00:52:18.301 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Buscando producto con ID: 2
+2025-09-17 00:52:18.302 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto no encontrado con ID: 2
+2025-09-17 00:52:18.306 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:52:18.317 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.317 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.318 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.320 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Eliminando producto con ID: 1
+2025-09-17 00:52:18.320 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto eliminado con ID: 1
+2025-09-17 00:52:18.409 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.410 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.410 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.435 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.435 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.435 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.458 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.458 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.458 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.484 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.484 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.484 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.503 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.503 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.503 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.521 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.522 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.522 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.584 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:52:18.595 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.596 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.596 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.597 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales for customer: Juan Pérez
+2025-09-17 00:52:18.598 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales for customer: Juan Pérez
+2025-09-17 00:52:18.598 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:52:18.596995900
+2025-09-17 00:52:18.598 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 3, Customer: Juan Pérez, Total: $300.00, Date: 2025-09-16T00:52:18.596995900
+2025-09-17 00:52:18.607 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:52:18.615 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.615 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.615 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.624 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales between 2025-09-15T00:52:18.615017700 and 2025-09-17T00:52:18.615017700
+2025-09-17 00:52:18.625 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales between those dates
+2025-09-17 00:52:18.632 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Total sold in that period: $300.0
+2025-09-17 00:52:18.633 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale IDs found: 1, 2
+2025-09-17 00:52:18.643 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:52:18.653 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.654 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.654 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.679 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Updating sale with ID: 1, Customer: Juan Pérez Actualizado
+2025-09-17 00:52:18.679 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale updated successfully! ID: 1, Customer: Juan Pérez Actualizado, New Total: $150.00
+2025-09-17 00:52:18.689 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:52:18.698 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.698 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.699 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:52:18.700 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding all sales
+2025-09-17 00:52:18.701 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales in total
+2025-09-17 00:52:18.701 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:52:18.699099700
+2025-09-17 00:52:18.701 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 2, Customer: María López, Total: $200.00, Date: 2025-09-16T00:52:18.699099700
+2025-09-17 00:52:18.710 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:52:18.719 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.719 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.719 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.726 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Creating new sale for customer: Juan Pérez
+2025-09-17 00:52:18.726 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale created successfully! ID: 1, Customer: Juan Pérez, Total: $100.00
+2025-09-17 00:52:18.735 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:52:18.741 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.741 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.741 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.744 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Deleting sale with ID: 1
+2025-09-17 00:52:18.745 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale deleted successfully! ID: 1
+2025-09-17 00:52:18.749 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:52:18.756 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.756 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.756 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.758 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales with payment method: Efectivo
+2025-09-17 00:52:18.758 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales with payment method 'Efectivo'
+2025-09-17 00:52:18.759 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Total sold with Efectivo: $500.0
+2025-09-17 00:52:18.760 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:52:18.757136700
+2025-09-17 00:52:18.760 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 4, Customer: Ana Gómez, Total: $400.00, Date: 2025-09-16T00:52:18.757136700
+2025-09-17 00:52:18.768 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:52:18.775 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:52:18.777 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:52:18.777 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:52:18.778 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 1
+2025-09-17 00:52:18.778 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale found! ID: 1, Customer: Juan Pérez, Total: $100.00
+2025-09-17 00:52:18.783 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 2
+2025-09-17 00:52:18.784 [main] WARN  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - No sale found with ID: 2
+2025-09-17 00:56:26.613 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:56:26.780 [main] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2025-09-17 00:56:27.334 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:27.334 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:27.337 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2025-09-17 00:56:27.507 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con código: CAJ001
+2025-09-17 00:56:27.509 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero encontrao por código: Juan Pérez
+2025-09-17 00:56:27.627 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con código: CAJ999
+2025-09-17 00:56:27.627 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorCajero - No se encontró ningún cajero con código: CAJ999
+2025-09-17 00:56:27.643 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:56:27.672 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:27.673 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:27.674 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:56:27.676 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Obteniendo toos los cajeros
+2025-09-17 00:56:27.677 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 2 cajeros
+2025-09-17 00:56:27.697 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:56:27.714 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:27.714 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:27.714 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:27.717 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajeros del turno: Mañana
+2025-09-17 00:56:27.718 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 2 cajeros en el turno Mañana
+2025-09-17 00:56:27.723 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajeros del turno: Noche
+2025-09-17 00:56:27.723 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Se encontraron 0 cajeros en el turno Noche
+2025-09-17 00:56:27.728 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:56:27.739 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:27.741 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:27.741 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:27.809 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Creando un cajero nuevo con nombre: Juan Pérez
+2025-09-17 00:56:27.810 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero creao exitosamente con ID: 1
+2025-09-17 00:56:27.816 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:56:27.824 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:27.826 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:27.826 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:27.830 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con ID: 1
+2025-09-17 00:56:27.830 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero encontrao: Juan Pérez
+2025-09-17 00:56:27.834 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Buscando cajero con ID: 2
+2025-09-17 00:56:27.835 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorCajero - No se encontró ningún cajero con ID: 2
+2025-09-17 00:56:27.837 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:56:27.848 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:27.848 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:27.848 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:27.850 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Eliminando cajero con ID: 1
+2025-09-17 00:56:27.850 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero eliminao exitosamente
+2025-09-17 00:56:27.853 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Controlador de Cajero inicializao y listo pa' usarse
+2025-09-17 00:56:27.864 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:27.864 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:27.864 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:27.869 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorCajero - Actualizando el cajero con ID: 1
+2025-09-17 00:56:27.869 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorCajero - Cajero actualizao exitosamente: Juan Pérez Actualizado
+2025-09-17 00:56:27.954 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:27.955 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:27.956 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:27.985 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:27.985 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:27.985 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.010 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.011 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.012 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:56:28.036 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.036 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.036 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.084 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.084 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.085 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:56:28.113 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.114 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.114 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.139 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.140 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.140 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.196 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:56:28.242 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.242 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.242 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.259 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:56:28.269 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.269 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.269 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.271 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Obteniendo lista de todos los productos
+2025-09-17 00:56:28.271 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Se encontraron 2 productos en total
+2025-09-17 00:56:28.272 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Categorías encontradas: Categoría 1, Categoría 2
+2025-09-17 00:56:28.283 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:56:28.293 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.294 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.294 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.309 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:56:28.323 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.323 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.324 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:56:28.332 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Creando nuevo producto: Producto 1
+2025-09-17 00:56:28.333 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto creado con ID: 1
+2025-09-17 00:56:28.343 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:56:28.356 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.356 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.357 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.374 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:56:28.387 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.387 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.388 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.391 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Buscando producto con ID: 1
+2025-09-17 00:56:28.391 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto encontrado: ID=1, Nombre=Producto 1
+2025-09-17 00:56:28.396 [main] DEBUG org.litethinking.restapi.controller.supermercado.ControladorProducto - Buscando producto con ID: 2
+2025-09-17 00:56:28.397 [main] WARN  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto no encontrado con ID: 2
+2025-09-17 00:56:28.400 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - ControladorProducto inicializado
+2025-09-17 00:56:28.410 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.410 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.410 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.412 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Eliminando producto con ID: 1
+2025-09-17 00:56:28.412 [main] INFO  org.litethinking.restapi.controller.supermercado.ControladorProducto - Producto eliminado con ID: 1
+2025-09-17 00:56:28.471 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.471 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.471 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.492 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.492 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.493 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.516 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.516 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.516 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.538 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.538 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.539 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.560 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.560 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.560 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.578 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.578 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.578 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.639 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:56:28.655 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.655 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.655 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.657 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales for customer: Juan Pérez
+2025-09-17 00:56:28.657 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales for customer: Juan Pérez
+2025-09-17 00:56:28.657 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:56:28.655502200
+2025-09-17 00:56:28.658 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 3, Customer: Juan Pérez, Total: $300.00, Date: 2025-09-16T00:56:28.655502200
+2025-09-17 00:56:28.667 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:56:28.674 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.674 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.674 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.683 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales between 2025-09-15T00:56:28.675176400 and 2025-09-17T00:56:28.675176400
+2025-09-17 00:56:28.683 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales between those dates
+2025-09-17 00:56:28.689 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Total sold in that period: $300.0
+2025-09-17 00:56:28.691 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale IDs found: 1, 2
+2025-09-17 00:56:28.702 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:56:28.712 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.712 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.712 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.727 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Updating sale with ID: 1, Customer: Juan Pérez Actualizado
+2025-09-17 00:56:28.727 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale updated successfully! ID: 1, Customer: Juan Pérez Actualizado, New Total: $150.00
+2025-09-17 00:56:28.736 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:56:28.756 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.756 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.756 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.757 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding all sales
+2025-09-17 00:56:28.758 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales in total
+2025-09-17 00:56:28.758 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:56:28.757210500
+2025-09-17 00:56:28.758 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 2, Customer: María López, Total: $200.00, Date: 2025-09-16T00:56:28.757210500
+2025-09-17 00:56:28.768 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:56:28.779 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.779 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.779 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.785 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Creating new sale for customer: Juan Pérez
+2025-09-17 00:56:28.786 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale created successfully! ID: 1, Customer: Juan Pérez, Total: $100.00
+2025-09-17 00:56:28.793 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:56:28.801 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.802 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.802 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.803 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Deleting sale with ID: 1
+2025-09-17 00:56:28.803 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale deleted successfully! ID: 1
+2025-09-17 00:56:28.806 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:56:28.814 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.814 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.814 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2025-09-17 00:56:28.816 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sales with payment method: Efectivo
+2025-09-17 00:56:28.816 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Found 2 sales with payment method 'Efectivo'
+2025-09-17 00:56:28.817 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Total sold with Efectivo: $500.0
+2025-09-17 00:56:28.817 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 1, Customer: Juan Pérez, Total: $100.00, Date: 2025-09-17T00:56:28.814663100
+2025-09-17 00:56:28.817 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale ID: 4, Customer: Ana Gómez, Total: $400.00, Date: 2025-09-16T00:56:28.814663100
+2025-09-17 00:56:28.827 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale Controller initialized and ready to work
+2025-09-17 00:56:28.834 [main] INFO  org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-09-17 00:56:28.834 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2025-09-17 00:56:28.835 [main] INFO  org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2025-09-17 00:56:28.837 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 1
+2025-09-17 00:56:28.838 [main] INFO  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Sale found! ID: 1, Customer: Juan Pérez, Total: $100.00
+2025-09-17 00:56:28.844 [main] DEBUG org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - Finding sale with ID: 2
+2025-09-17 00:56:28.844 [main] WARN  org.litethinking.restapi.controller.supermercado.venta.ControladorVenta - No sale found with ID: 2
