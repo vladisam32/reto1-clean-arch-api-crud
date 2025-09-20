@@ -2,7 +2,7 @@
 
 ## ARQUITECTURA DEL SISTEMA
 
-Este proyecto implementa una arquitectura limpia (Clean Architecture) con una estructura modular que separa claramente las responsabilidades y dependencias. La aplicación está diseñada siguiendo los principios SOLID y el patrón de arquitectura hexagonal.
+Este proyecto implementa una arquitectura limpia (Clean Architecture) con una estructura modular que separa claramente las responsabilidades y dependencias. La aplicación está diseñada siguiendo los principios SOLID y el patrón de arquitectura clean code.
 
 ### Estructura de Módulos
 
